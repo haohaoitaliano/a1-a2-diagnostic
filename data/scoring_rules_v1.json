@@ -1,0 +1,35 @@
+{
+  "total_score": 100,
+  "question_score": 2,
+  "auto_scoring": "answer === selected_option",
+  "module_scores": {
+    "真实生活场景": 70,
+    "语法运用": 20,
+    "语言逻辑": 10
+  },
+  "a2_pass": {
+    "total_min": 70,
+    "life_scene_min": 45,
+    "grammar_min": 12
+  },
+  "a2_stable": {
+    "total_min": 80,
+    "life_scene_min": 52,
+    "grammar_min": 15,
+    "logic_min": 6
+  },
+  "b1_ready": {
+    "total_min": 85,
+    "difficulty_4_5_accuracy_min": 0.7,
+    "life_scene_min": 55,
+    "logic_min": 7,
+    "personal_modules_accuracy_min": 0.7
+  },
+  "diagnosis_rules": [
+    "按诊断标签统计错误数",
+    "错误数>=2输出对应复习建议",
+    "模块正确率<60%标为薄弱",
+    "模块正确率60%-79%标为待巩固",
+    "模块正确率>=80%标为稳定"
+  ]
+}
