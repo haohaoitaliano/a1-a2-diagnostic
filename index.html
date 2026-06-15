@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <title>好好意语 A1-A2 Percorso</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <p>好好意语</p>
+        <h1>A1-A2 Percorso</h1>
+        <span>课程毕业测试</span>
+      </div>
+    </header>
+
+    <main class="app">
+      <section id="homeView" class="screen active">
+        <div class="hero">
+          <p class="kicker">A1-A2 Final Diagnostic</p>
+          <h2>完成一次温柔但认真的学习体检</h2>
+          <p>
+            系统会从 100 道题库中按模块随机抽取 50 题，自动评分，并生成 A2
+            达标与 B1 预备判断。
+          </p>
+        </div>
+
+        <div class="info-grid" aria-label="测试说明">
+          <div><strong>50</strong><span>道题</span></div>
+          <div><strong>20-30</strong><span>分钟</span></div>
+          <div><strong>自动</strong><span>评分</span></div>
+          <div><strong>诊断</strong><span>报告</span></div>
+        </div>
+
+        <button id="startBtn" class="primary-btn" type="button">开始测试</button>
+      </section>
+
+      <section id="quizView" class="screen">
+        <div class="progress-card">
+          <div class="progress-meta">
+            <span id="questionCounter">第 1 / 50 题</span>
+            <span id="answeredBadge">0 / 50 已答</span>
+          </div>
+          <div class="progress-track" aria-hidden="true">
+            <span id="progressBar"></span>
+          </div>
+        </div>
+
+        <article class="question-card">
+          <div class="tag-row">
+            <span id="typeTag"></span>
+            <span id="moduleTag"></span>
+            <span id="difficultyTag"></span>
+          </div>
+          <h2 id="questionStem"></h2>
+          <p id="audioNotice" class="audio-notice hidden">听力题：未来需配音频</p>
+          <div id="optionsBox" class="options"></div>
+        </article>
+
+        <nav class="quiz-actions" aria-label="答题操作">
+          <button id="prevBtn" class="ghost-btn" type="button">上一题</button>
+          <button id="nextBtn" class="primary-btn" type="button">下一题</button>
+        </nav>
+      </section>
+
+      <section id="submitView" class="screen">
+        <div class="confirm-card">
+          <p class="kicker">提交确认</p>
+          <h2>确定提交本次测试吗？</h2>
+          <p id="submitSummary"></p>
+          <div class="stack-actions">
+            <button id="backToQuizBtn" class="ghost-btn" type="button">继续检查</button>
+            <button id="submitBtn" class="primary-btn" type="button">提交并查看报告</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="resultView" class="screen">
+        <div id="resultPanel" class="result-panel"></div>
+      </section>
+    </main>
+
+    <script src="script.js?v=1.0"></script>
+  </body>
+</html>
