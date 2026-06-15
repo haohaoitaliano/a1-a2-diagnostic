@@ -208,6 +208,7 @@ function showSubmit() {
   showScreen("submit");
 }
 
+
 function pct(correct, total) {
   return total ? Math.round((correct / total) * 100) : 0;
 }
