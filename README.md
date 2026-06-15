@@ -1,6 +1,3 @@
-# 好好意语 A1-A2 Diagnostic
-
-Temporary README.
 # 好好意语 A1-A2 Percorso
 
 移动端优先的 A1-A2 毕业测试网页系统。
