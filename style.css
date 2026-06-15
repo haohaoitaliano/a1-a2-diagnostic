@@ -41,7 +41,7 @@ button {
 }
 
 .topbar {
-  padding: calc(18px + env(safe-area-inset-top)) 18px 20px;
+  padding: calc(16px + env(safe-area-inset-top)) 18px 18px;
   background: var(--brand);
   color: #fff;
 }
@@ -66,8 +66,8 @@ button {
 }
 
 .brand h1 {
-  margin-bottom: 8px;
-  font-size: 31px;
+  margin-bottom: 6px;
+  font-size: 28px;
   line-height: 1.12;
   letter-spacing: 0;
 }
@@ -102,7 +102,7 @@ button {
 }
 
 .hero {
-  padding: 20px;
+  padding: 18px;
 }
 
 .kicker {
@@ -113,15 +113,46 @@ button {
 }
 
 .hero h2 {
-  margin-bottom: 10px;
-  font-size: 25px;
+  margin-bottom: 12px;
+  font-size: 22px;
   line-height: 1.2;
   letter-spacing: 0;
+}
+
+.hero p {
+  margin-bottom: 8px;
 }
 
 .hero p:last-child {
   margin-bottom: 0;
   color: var(--muted);
+}
+
+.course-note {
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.check-intro {
+  color: var(--muted);
+}
+
+.home-checklist {
+  display: grid;
+  gap: 5px;
+  margin: 6px 0 10px;
+  padding: 0;
+  color: var(--ink);
+  font-size: 15px;
+  line-height: 1.4;
+  list-style: none;
+}
+
+.home-checklist li::before {
+  content: "✓";
+  margin-right: 8px;
+  color: var(--success);
+  font-weight: 900;
 }
 
 .info-grid {
