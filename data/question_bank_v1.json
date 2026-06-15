@@ -1,0 +1,1807 @@
+{
+  "version": "V1.0",
+  "title": "好好意语 A1-A2 Percorso 题库",
+  "question_count": 100,
+  "questions": [
+    {
+      "id": "Q001",
+      "type": "真实生活场景",
+      "module": "医疗",
+      "dimension": "交际反应",
+      "knowledge": "描述症状",
+      "difficulty": 2,
+      "answer": "B",
+      "diagnostic_tag": "医疗症状表达弱",
+      "audio_status": null,
+      "stem": "你在诊所，想说“我发烧，还头疼”。哪一句最合适？",
+      "options": {
+        "A": "Ho la tosse e mi fa male la gola.",
+        "B": "Ho la febbre e mi fa male la testa.",
+        "C": "Ho mal di stomaco e la nausea.",
+        "D": "Mi fa male la schiena e ho i brividi."
+      }
+    },
+    {
+      "id": "Q002",
+      "type": "真实生活场景",
+      "module": "药店",
+      "dimension": "阅读理解",
+      "knowledge": "药品用法",
+      "difficulty": 3,
+      "answer": "D",
+      "diagnostic_tag": "药店用药说明理解弱",
+      "audio_status": null,
+      "stem": "药盒说明写着：Prendere una compressa ogni 8 ore, dopo i pasti. 正确理解是：",
+      "options": {
+        "A": "每8小时饭前吃一片",
+        "B": "每8天饭后吃一片",
+        "C": "每天饭后吃一片",
+        "D": "每8小时饭后吃一片"
+      }
+    },
+    {
+      "id": "Q003",
+      "type": "真实生活场景",
+      "module": "餐厅",
+      "dimension": "交际反应",
+      "knowledge": "餐厅预约",
+      "difficulty": 3,
+      "answer": "A",
+      "diagnostic_tag": "餐厅预约表达弱",
+      "audio_status": null,
+      "stem": "你想打电话预约今晚8点两人桌。哪一句最合适？",
+      "options": {
+        "A": "Vorrei prenotare un tavolo per due persone alle otto.",
+        "B": "Vorrei prenotare un tavolo per quattro persone alle otto.",
+        "C": "Vorrei ordinare due pizze da portare via alle otto.",
+        "D": "Vorrei prenotare per domani alle otto."
+      }
+    },
+    {
+      "id": "Q004",
+      "type": "真实生活场景",
+      "module": "超市",
+      "dimension": "阅读理解",
+      "knowledge": "数量与价格",
+      "difficulty": 3,
+      "answer": "C",
+      "diagnostic_tag": "购物数量价格理解弱",
+      "audio_status": null,
+      "stem": "超市标签写着：Mele - 2,50 euro al kg. 你买2公斤苹果，大约多少钱？",
+      "options": {
+        "A": "2,50 euro",
+        "B": "4,00 euro",
+        "C": "5,00 euro",
+        "D": "7,50 euro"
+      }
+    },
+    {
+      "id": "Q005",
+      "type": "真实生活场景",
+      "module": "火车站",
+      "dimension": "阅读理解",
+      "knowledge": "火车站公告",
+      "difficulty": 4,
+      "answer": "B",
+      "diagnostic_tag": "火车站公告理解弱",
+      "audio_status": null,
+      "stem": "屏幕显示：Il treno regionale 1742 per Firenze partirà dal binario 6 con un ritardo di 15 minuti. 正确理解是：",
+      "options": {
+        "A": "1742次列车已经取消",
+        "B": "去佛罗伦萨的区域列车将在6站台晚点15分钟出发",
+        "C": "去佛罗伦萨的列车15号站台已经出发",
+        "D": "1742次列车从6点15分开始检票"
+      }
+    },
+    {
+      "id": "Q006",
+      "type": "真实生活场景",
+      "module": "公交车",
+      "dimension": "交际反应",
+      "knowledge": "询问公交线路",
+      "difficulty": 3,
+      "answer": "D",
+      "diagnostic_tag": "公交出行表达弱",
+      "audio_status": null,
+      "stem": "你想问“15路公交车到市中心吗？”哪一句最合适？",
+      "options": {
+        "A": "Dove posso comprare il biglietto dell'autobus 15?",
+        "B": "L'autobus 15 passa vicino al centro?",
+        "C": "Dove posso prendere l'autobus 15?",
+        "D": "L'autobus 15 va in centro?"
+      }
+    },
+    {
+      "id": "Q007",
+      "type": "真实生活场景",
+      "module": "飞机",
+      "dimension": "阅读理解",
+      "knowledge": "机场值机",
+      "difficulty": 3,
+      "answer": "A",
+      "diagnostic_tag": "机场流程理解弱",
+      "audio_status": null,
+      "stem": "工作人员说：Ha un bagaglio da stiva o solo bagaglio a mano? 他在问什么？",
+      "options": {
+        "A": "你有托运行李，还是只有手提行李？",
+        "B": "你想坐靠窗还是靠过道？",
+        "C": "你要去国内还是国外？",
+        "D": "你有护照还是居留？"
+      }
+    },
+    {
+      "id": "Q008",
+      "type": "真实生活场景",
+      "module": "租房",
+      "dimension": "阅读理解",
+      "knowledge": "住房广告",
+      "difficulty": 4,
+      "answer": "C",
+      "diagnostic_tag": "住房广告关键信息弱",
+      "audio_status": null,
+      "stem": "租房广告写着：Bilocale arredato, terzo piano senza ascensore, vicino alla stazione. 哪项正确？",
+      "options": {
+        "A": "两居室，没有家具，有电梯",
+        "B": "三居室，靠近机场，没有电梯",
+        "C": "两居室，有家具，三楼无电梯，靠近火车站",
+        "D": "一居室，有电梯，离火车站很远"
+      }
+    },
+    {
+      "id": "Q009",
+      "type": "真实生活场景",
+      "module": "邮局",
+      "dimension": "交际反应",
+      "knowledge": "寄包裹",
+      "difficulty": 3,
+      "answer": "D",
+      "diagnostic_tag": "邮局寄件表达弱",
+      "audio_status": null,
+      "stem": "你在邮局想问“寄到中国多少钱？”哪一句最合适？",
+      "options": {
+        "A": "Quanto pesa questo pacco?",
+        "B": "Quanto costa un francobollo per la Cina?",
+        "C": "Quanto tempo ci vuole per arrivare in Cina?",
+        "D": "Quanto costa spedire in Cina?"
+      }
+    },
+    {
+      "id": "Q010",
+      "type": "真实生活场景",
+      "module": "城市问路",
+      "dimension": "阅读理解",
+      "knowledge": "方向指令",
+      "difficulty": 3,
+      "answer": "B",
+      "diagnostic_tag": "问路方向理解弱",
+      "audio_status": null,
+      "stem": "路人说：Vai sempre dritto, poi gira a sinistra dopo la farmacia. 你应该怎么走？",
+      "options": {
+        "A": "一直直走，药店前右转",
+        "B": "一直直走，过了药店后左转",
+        "C": "先左转，再找药店",
+        "D": "到药店里问路"
+      }
+    },
+    {
+      "id": "Q011",
+      "type": "语法运用",
+      "module": "前置词",
+      "dimension": "语法运用",
+      "knowledge": "da quanto tempo / in Italia",
+      "difficulty": 3,
+      "answer": "A",
+      "diagnostic_tag": "前置词选择错误",
+      "audio_status": null,
+      "stem": "选择正确句子：",
+      "options": {
+        "A": "Sono in Italia da tre anni.",
+        "B": "Sono a Italia per tre anni.",
+        "C": "Sono da Italia in tre anni.",
+        "D": "Sono in Italia a tre anni."
+      }
+    },
+    {
+      "id": "Q012",
+      "type": "语法运用",
+      "module": "近过去时",
+      "dimension": "语法运用",
+      "knowledge": "essere 作助动词",
+      "difficulty": 3,
+      "answer": "C",
+      "diagnostic_tag": "近过去时助动词选择弱",
+      "audio_status": null,
+      "stem": "补全句子：Ieri Marco _____ a Roma.",
+      "options": {
+        "A": "ha andato",
+        "B": "è andare",
+        "C": "è andato",
+        "D": "ha andata"
+      }
+    },
+    {
+      "id": "Q013",
+      "type": "语法运用",
+      "module": "代词",
+      "dimension": "语法运用",
+      "knowledge": "直接宾语代词",
+      "difficulty": 4,
+      "answer": "D",
+      "diagnostic_tag": "直接宾语代词替换弱",
+      "audio_status": null,
+      "stem": "把 Compro la medicina. 改成使用代词的句子，哪一句正确？",
+      "options": {
+        "A": "Lo compro.",
+        "B": "Le compro.",
+        "C": "Gli compro.",
+        "D": "La compro."
+      }
+    },
+    {
+      "id": "Q014",
+      "type": "语法运用",
+      "module": "副词",
+      "dimension": "语法运用",
+      "knowledge": "频率副词",
+      "difficulty": 2,
+      "answer": "B",
+      "diagnostic_tag": "频率副词理解弱",
+      "audio_status": null,
+      "stem": "Di solito vado al supermercato il sabato. 中 Di solito 的意思最接近：",
+      "options": {
+        "A": "从不",
+        "B": "通常",
+        "C": "马上",
+        "D": "只在今天"
+      }
+    },
+    {
+      "id": "Q015",
+      "type": "语法运用",
+      "module": "命令式",
+      "dimension": "语法运用",
+      "knowledge": "尊称命令式",
+      "difficulty": 3,
+      "answer": "C",
+      "diagnostic_tag": "命令式识别弱",
+      "audio_status": null,
+      "stem": "医生对病人说：“请您多喝水。”哪一句最合适？",
+      "options": {
+        "A": "Bevi molta acqua.",
+        "B": "Bevo molta acqua.",
+        "C": "Beva molta acqua.",
+        "D": "Bere molta acqua ieri."
+      }
+    },
+    {
+      "id": "Q016",
+      "type": "语法运用",
+      "module": "冠词与名词",
+      "dimension": "语法运用",
+      "knowledge": "冠词 + 名词性数",
+      "difficulty": 2,
+      "answer": "A",
+      "diagnostic_tag": "冠词名词配合弱",
+      "audio_status": null,
+      "stem": "选择正确表达“一个医生”。",
+      "options": {
+        "A": "un medico",
+        "B": "il medico",
+        "C": "una dottoressa",
+        "D": "un'infermiera"
+      }
+    },
+    {
+      "id": "Q017",
+      "type": "语言逻辑",
+      "module": "句子结构",
+      "dimension": "语言逻辑",
+      "knowledge": "完整句判断",
+      "difficulty": 3,
+      "answer": "D",
+      "diagnostic_tag": "句子完整性判断弱",
+      "audio_status": null,
+      "stem": "哪一句是完整的意大利语句子？",
+      "options": {
+        "A": "Io molto stanca oggi.",
+        "B": "La casa grande in centro.",
+        "C": "Marco al supermercato ieri.",
+        "D": "Anna compra il pane."
+      }
+    },
+    {
+      "id": "Q018",
+      "type": "语言逻辑",
+      "module": "直接宾语",
+      "dimension": "语言逻辑",
+      "knowledge": "直接宾语识别",
+      "difficulty": 3,
+      "answer": "B",
+      "diagnostic_tag": "直接宾语识别弱",
+      "audio_status": null,
+      "stem": "句子 La farmacista dà la medicina a Marco. 里面，直接宾语是什么？",
+      "options": {
+        "A": "La farmacista",
+        "B": "la medicina",
+        "C": "a Marco",
+        "D": "dà"
+      }
+    },
+    {
+      "id": "Q019",
+      "type": "语言逻辑",
+      "module": "间接宾语",
+      "dimension": "语言逻辑",
+      "knowledge": "间接宾语识别",
+      "difficulty": 4,
+      "answer": "C",
+      "diagnostic_tag": "间接宾语识别弱",
+      "audio_status": null,
+      "stem": "句子 Il medico spiega la cura alla paziente. 里面，间接宾语是什么？",
+      "options": {
+        "A": "Il medico",
+        "B": "la cura",
+        "C": "alla paziente",
+        "D": "spiega"
+      }
+    },
+    {
+      "id": "Q020",
+      "type": "真实生活场景",
+      "module": "医疗",
+      "dimension": "听力理解",
+      "knowledge": "医生建议理解",
+      "difficulty": 3,
+      "answer": "A",
+      "diagnostic_tag": "医疗听力关键信息弱",
+      "audio_status": "future_audio_required",
+      "stem": "听力材料文字版：Deve fare le analisi del sangue domani mattina a digiuno. 正确理解是：",
+      "options": {
+        "A": "明天早上要空腹验血",
+        "B": "明天晚上要吃药",
+        "C": "今天下午要去急诊",
+        "D": "明天早上可以吃完饭再去检查"
+      }
+    },
+    {
+      "id": "Q021",
+      "type": "真实生活场景",
+      "module": "药店",
+      "dimension": "交际反应",
+      "knowledge": "询问药品用法",
+      "difficulty": 3,
+      "answer": "D",
+      "diagnostic_tag": "药店提问表达弱",
+      "audio_status": null,
+      "stem": "你买药时想问“我要吃几天？”哪一句最合适？",
+      "options": {
+        "A": "Quanto costa questa medicina?",
+        "B": "Devo prenderlo prima o dopo i pasti?",
+        "C": "Quante volte al giorno devo prenderlo?",
+        "D": "Per quanti giorni devo prenderlo?"
+      }
+    },
+    {
+      "id": "Q022",
+      "type": "真实生活场景",
+      "module": "餐厅",
+      "dimension": "阅读理解",
+      "knowledge": "菜单阅读",
+      "difficulty": 3,
+      "answer": "B",
+      "diagnostic_tag": "菜单信息理解弱",
+      "audio_status": null,
+      "stem": "菜单含 Coperto 2 euro, Acqua 1,50, Pizza 7 euro。两个人点两份 pizza 和一瓶水，还要付 coperto。总价？",
+      "options": {
+        "A": "15,50 euro",
+        "B": "19,50 euro",
+        "C": "17,00 euro",
+        "D": "21,00 euro"
+      }
+    },
+    {
+      "id": "Q023",
+      "type": "真实生活场景",
+      "module": "超市",
+      "dimension": "交际反应",
+      "knowledge": "付款与袋子",
+      "difficulty": 2,
+      "answer": "C",
+      "diagnostic_tag": "超市结账表达弱",
+      "audio_status": null,
+      "stem": "收银员问：Vuole un sacchetto? 你不需要袋子。怎么回答最合适？",
+      "options": {
+        "A": "Sì, grazie.",
+        "B": "Pago con la carta.",
+        "C": "No, grazie.",
+        "D": "Vorrei due sacchetti."
+      }
+    },
+    {
+      "id": "Q024",
+      "type": "真实生活场景",
+      "module": "火车站",
+      "dimension": "听力理解",
+      "knowledge": "站台变更",
+      "difficulty": 4,
+      "answer": "A",
+      "diagnostic_tag": "火车站广播理解弱",
+      "audio_status": "future_audio_required",
+      "stem": "听力材料文字版：Il treno per Venezia partirà dal binario 3 invece che dal binario 1. 正确理解是：",
+      "options": {
+        "A": "去威尼斯的火车改从3站台出发，不是1站台",
+        "B": "去威尼斯的火车取消了",
+        "C": "去威尼斯的火车从1站台提前3分钟出发",
+        "D": "去威尼斯的火车从3站台到达，不是出发"
+      }
+    },
+    {
+      "id": "Q025",
+      "type": "真实生活场景",
+      "module": "公交车",
+      "dimension": "阅读理解",
+      "knowledge": "公交票与查票",
+      "difficulty": 3,
+      "answer": "D",
+      "diagnostic_tag": "公交场景理解弱",
+      "audio_status": null,
+      "stem": "车上有人说：Il controllore sta controllando i biglietti. 这表示：",
+      "options": {
+        "A": "司机正在卖票",
+        "B": "乘客正在下车",
+        "C": "公交车到终点站了",
+        "D": "查票员正在查票"
+      }
+    },
+    {
+      "id": "Q026",
+      "type": "真实生活场景",
+      "module": "飞机",
+      "dimension": "阅读理解",
+      "knowledge": "机场屏幕信息",
+      "difficulty": 4,
+      "answer": "B",
+      "diagnostic_tag": "机场信息读取弱",
+      "audio_status": null,
+      "stem": "机场屏幕显示：Volo AZ203 per Roma - Gate B12 - Imbarco aperto. 正确理解是：",
+      "options": {
+        "A": "AZ203 到米兰，B12 登机口关闭",
+        "B": "AZ203 去罗马，B12 登机口，正在登机",
+        "C": "AZ203 去罗马，航班取消",
+        "D": "AZ203 是火车编号，不是航班"
+      }
+    },
+    {
+      "id": "Q027",
+      "type": "真实生活场景",
+      "module": "租房",
+      "dimension": "交际反应",
+      "knowledge": "询问房屋信息",
+      "difficulty": 3,
+      "answer": "A",
+      "diagnostic_tag": "租房看房表达弱",
+      "audio_status": null,
+      "stem": "你想问“房租包括水电费吗？”哪一句最合适？",
+      "options": {
+        "A": "L'affitto include le spese?",
+        "B": "Quanto costa l'affitto al mese?",
+        "C": "L'appartamento è già arredato?",
+        "D": "L'appartamento è vicino alla stazione?"
+      }
+    },
+    {
+      "id": "Q028",
+      "type": "真实生活场景",
+      "module": "城市问路",
+      "dimension": "交际反应",
+      "knowledge": "礼貌求助",
+      "difficulty": 2,
+      "answer": "C",
+      "diagnostic_tag": "问路礼貌表达弱",
+      "audio_status": null,
+      "stem": "你在路上想礼貌地问路，哪一句最合适？",
+      "options": {
+        "A": "Dov'è la stazione?",
+        "B": "Devo andare in centro.",
+        "C": "Scusi, mi può aiutare?",
+        "D": "Sa dov'è la fermata dell'autobus?"
+      }
+    },
+    {
+      "id": "Q029",
+      "type": "真实生活场景",
+      "module": "邮局",
+      "dimension": "听力理解",
+      "knowledge": "邮寄方式比较",
+      "difficulty": 4,
+      "answer": "D",
+      "diagnostic_tag": "邮局听力比较信息弱",
+      "audio_status": "future_audio_required",
+      "stem": "听力材料文字版：La posta celere è più veloce, ma costa di più. Il pacco ordinario è più lento, ma più economico. 正确理解是：",
+      "options": {
+        "A": "快递更慢但更便宜",
+        "B": "普通包裹更快但更贵",
+        "C": "两种寄法价格和速度一样",
+        "D": "快递更快但更贵，普通包裹更慢但更便宜"
+      }
+    },
+    {
+      "id": "Q030",
+      "type": "真实生活场景",
+      "module": "餐厅",
+      "dimension": "听力理解",
+      "knowledge": "点餐信息",
+      "difficulty": 3,
+      "answer": "B",
+      "diagnostic_tag": "餐厅听力关键信息弱",
+      "audio_status": "future_audio_required",
+      "stem": "听力材料文字版：Per me una pizza margherita e un acqua frizzante, grazie. 说话人点了什么？",
+      "options": {
+        "A": "一份意面和一瓶矿泉水",
+        "B": "一份玛格丽塔披萨和一瓶气泡水",
+        "C": "一份披萨和一杯咖啡",
+        "D": "一份鸡肉和一瓶自然水"
+      }
+    },
+    {
+      "id": "Q031",
+      "type": "真实生活场景",
+      "module": "医疗",
+      "dimension": "阅读理解",
+      "knowledge": "症状描述",
+      "difficulty": 3,
+      "answer": "C",
+      "diagnostic_tag": "医疗症状理解弱",
+      "audio_status": null,
+      "stem": "病人说：Ho mal di gola e non riesco a parlare bene. 他的主要问题是：",
+      "options": {
+        "A": "胃疼，不能吃饭",
+        "B": "腿疼，不能走路",
+        "C": "喉咙疼，说话不太方便",
+        "D": "眼睛疼，看不清楚"
+      }
+    },
+    {
+      "id": "Q032",
+      "type": "真实生活场景",
+      "module": "药店",
+      "dimension": "交际反应",
+      "knowledge": "购买常用药",
+      "difficulty": 2,
+      "answer": "A",
+      "diagnostic_tag": "药店基础表达弱",
+      "audio_status": null,
+      "stem": "你在药店想买感冒药。哪一句最合适？",
+      "options": {
+        "A": "Vorrei qualcosa per il raffreddore.",
+        "B": "Vorrei qualcosa per la tosse.",
+        "C": "Vorrei qualcosa per il mal di gola.",
+        "D": "Vorrei qualcosa per la febbre."
+      }
+    },
+    {
+      "id": "Q033",
+      "type": "真实生活场景",
+      "module": "餐厅",
+      "dimension": "阅读理解",
+      "knowledge": "菜单分类",
+      "difficulty": 3,
+      "answer": "D",
+      "diagnostic_tag": "菜单分类理解弱",
+      "audio_status": null,
+      "stem": "菜单：Antipasti bruschetta / Primi lasagne / Secondi pesce al forno / Dolci tiramisù。想点甜点应选：",
+      "options": {
+        "A": "bruschetta",
+        "B": "lasagne",
+        "C": "pesce al forno",
+        "D": "tiramisù"
+      }
+    },
+    {
+      "id": "Q034",
+      "type": "真实生活场景",
+      "module": "超市",
+      "dimension": "交际反应",
+      "knowledge": "询问价格",
+      "difficulty": 2,
+      "answer": "B",
+      "diagnostic_tag": "购物询价表达弱",
+      "audio_status": null,
+      "stem": "你想问“这些橙子多少钱一公斤？”哪一句最合适？",
+      "options": {
+        "A": "Dove sono le arance al chilo?",
+        "B": "Quanto costano le arance al chilo?",
+        "C": "Quante arance sono il chilo?",
+        "D": "Quando costano le arance?"
+      }
+    },
+    {
+      "id": "Q035",
+      "type": "真实生活场景",
+      "module": "火车站",
+      "dimension": "交际反应",
+      "knowledge": "询问站台",
+      "difficulty": 2,
+      "answer": "C",
+      "diagnostic_tag": "火车站问询表达弱",
+      "audio_status": null,
+      "stem": "你想问“去米兰的火车从哪个站台出发？”哪一句最合适？",
+      "options": {
+        "A": "Quanto costa il treno per Milano?",
+        "B": "A che ora arriva Milano?",
+        "C": "Da che binario parte il treno per Milano?",
+        "D": "Dove compro Milano?"
+      }
+    },
+    {
+      "id": "Q036",
+      "type": "真实生活场景",
+      "module": "公交车",
+      "dimension": "阅读理解",
+      "knowledge": "车票有效期",
+      "difficulty": 3,
+      "answer": "A",
+      "diagnostic_tag": "公交票信息理解弱",
+      "audio_status": null,
+      "stem": "车票写着：Biglietto valido 90 minuti dalla convalida. 正确理解是：",
+      "options": {
+        "A": "打票后90分钟内有效",
+        "B": "买票后90天内有效",
+        "C": "只能坐90路公交车",
+        "D": "车票价格是90欧"
+      }
+    },
+    {
+      "id": "Q037",
+      "type": "真实生活场景",
+      "module": "飞机",
+      "dimension": "交际反应",
+      "knowledge": "座位选择",
+      "difficulty": 3,
+      "answer": "D",
+      "diagnostic_tag": "机场座位表达弱",
+      "audio_status": null,
+      "stem": "值机时，你想问“可以要一个靠窗的位置吗？”哪一句最合适？",
+      "options": {
+        "A": "Posso avere un posto vicino al corridoio?",
+        "B": "Posso avere un posto davanti?",
+        "C": "Posso avere un posto vicino all uscita?",
+        "D": "Posso avere un posto vicino al finestrino?"
+      }
+    },
+    {
+      "id": "Q038",
+      "type": "真实生活场景",
+      "module": "租房",
+      "dimension": "阅读理解",
+      "knowledge": "住房条件",
+      "difficulty": 3,
+      "answer": "B",
+      "diagnostic_tag": "租房信息理解弱",
+      "audio_status": null,
+      "stem": "房源信息：Camera singola in appartamento condiviso, spese incluse. 这表示：",
+      "options": {
+        "A": "整套房出租，不含费用",
+        "B": "合租公寓里的单人间，费用已包含",
+        "C": "双人间，费用另算",
+        "D": "房子出售，不出租"
+      }
+    },
+    {
+      "id": "Q039",
+      "type": "真实生活场景",
+      "module": "邮局",
+      "dimension": "阅读理解",
+      "knowledge": "邮局窗口服务",
+      "difficulty": 3,
+      "answer": "C",
+      "diagnostic_tag": "邮局业务理解弱",
+      "audio_status": null,
+      "stem": "邮局取号机有选项：Spedizioni e pacchi。如果你要寄包裹，应选择：",
+      "options": {
+        "A": "Pagamenti",
+        "B": "Conti correnti",
+        "C": "Spedizioni e pacchi",
+        "D": "Documenti sanitari"
+      }
+    },
+    {
+      "id": "Q040",
+      "type": "真实生活场景",
+      "module": "城市问路",
+      "dimension": "交际反应",
+      "knowledge": "确认路线",
+      "difficulty": 3,
+      "answer": "B",
+      "diagnostic_tag": "问路确认表达弱",
+      "audio_status": null,
+      "stem": "别人指路后，你想确认“所以我直走，然后右转，对吗？”哪一句最合适？",
+      "options": {
+        "A": "Quindi torno indietro e giro a sinistra, vero?",
+        "B": "Quindi vado dritto e poi giro a destra, giusto?",
+        "C": "Quindi prendo il treno e scendo qui, vero?",
+        "D": "Quindi entro in farmacia e compro il biglietto?"
+      }
+    },
+    {
+      "id": "Q041",
+      "type": "语法运用",
+      "module": "前置词",
+      "dimension": "语法运用",
+      "knowledge": "andare a/in + 地点",
+      "difficulty": 3,
+      "answer": "D",
+      "diagnostic_tag": "地点前置词选择弱",
+      "audio_status": null,
+      "stem": "你想表达“明天我去药店”。哪一句正确？",
+      "options": {
+        "A": "Domani vado dal medico.",
+        "B": "Domani vado al supermercato.",
+        "C": "Domani vado in banca.",
+        "D": "Domani vado in farmacia."
+      }
+    },
+    {
+      "id": "Q042",
+      "type": "语法运用",
+      "module": "动词",
+      "dimension": "语法运用",
+      "knowledge": "情态动词 + 动词原形",
+      "difficulty": 2,
+      "answer": "A",
+      "diagnostic_tag": "情态动词结构弱",
+      "audio_status": null,
+      "stem": "补全句子：Non posso venire perché devo _____.",
+      "options": {
+        "A": "lavorare",
+        "B": "lavoro",
+        "C": "lavorato",
+        "D": "lavori"
+      }
+    },
+    {
+      "id": "Q043",
+      "type": "语法运用",
+      "module": "近过去时",
+      "dimension": "语法运用",
+      "knowledge": "avere + 过去分词",
+      "difficulty": 3,
+      "answer": "C",
+      "diagnostic_tag": "近过去时构成弱",
+      "audio_status": null,
+      "stem": "补全句子：Ieri sera noi _____ una pizza.",
+      "options": {
+        "A": "siamo mangiato",
+        "B": "abbiamo mangiare",
+        "C": "abbiamo mangiato",
+        "D": "mangiamo"
+      }
+    },
+    {
+      "id": "Q044",
+      "type": "语法运用",
+      "module": "代词",
+      "dimension": "语法运用",
+      "knowledge": "间接宾语代词",
+      "difficulty": 4,
+      "answer": "B",
+      "diagnostic_tag": "间接宾语代词弱",
+      "audio_status": null,
+      "stem": "Telefono a Marco. 如果用代词替换 a Marco，哪一句正确？",
+      "options": {
+        "A": "Lo telefono.",
+        "B": "Gli telefono.",
+        "C": "La telefono.",
+        "D": "Le telefono."
+      }
+    },
+    {
+      "id": "Q045",
+      "type": "语法运用",
+      "module": "副词",
+      "dimension": "语法运用",
+      "knowledge": "副词位置与含义",
+      "difficulty": 3,
+      "answer": "D",
+      "diagnostic_tag": "频率副词使用弱",
+      "audio_status": null,
+      "stem": "哪一句最自然地表达“我周末经常出去”？",
+      "options": {
+        "A": "Esco il fine settimana spesso.",
+        "B": "Spesso il fine settimana esce.",
+        "C": "Io spesso uscire il fine settimana.",
+        "D": "Esco spesso il fine settimana."
+      }
+    },
+    {
+      "id": "Q046",
+      "type": "语法运用",
+      "module": "形容词",
+      "dimension": "语法运用",
+      "knowledge": "形容词性数配合",
+      "difficulty": 2,
+      "answer": "A",
+      "diagnostic_tag": "形容词配合弱",
+      "audio_status": null,
+      "stem": "补全句子：Le camere sono molto _____.",
+      "options": {
+        "A": "luminose",
+        "B": "luminoso",
+        "C": "luminosa",
+        "D": "luminosi"
+      }
+    },
+    {
+      "id": "Q047",
+      "type": "语言逻辑",
+      "module": "主语",
+      "dimension": "语言逻辑",
+      "knowledge": "主语与动词一致",
+      "difficulty": 3,
+      "answer": "B",
+      "diagnostic_tag": "主语动词一致弱",
+      "audio_status": null,
+      "stem": "哪一句中主语和动词搭配正确？",
+      "options": {
+        "A": "Io vanno al lavoro.",
+        "B": "Noi andiamo al lavoro.",
+        "C": "Tu va al lavoro.",
+        "D": "Loro andiamo al lavoro."
+      }
+    },
+    {
+      "id": "Q048",
+      "type": "语言逻辑",
+      "module": "词性意识",
+      "dimension": "语言逻辑",
+      "knowledge": "副词识别",
+      "difficulty": 3,
+      "answer": "C",
+      "diagnostic_tag": "词性识别弱",
+      "audio_status": null,
+      "stem": "句子 Marco parla molto velocemente. 里面，velocemente 是：",
+      "options": {
+        "A": "名词",
+        "B": "动词",
+        "C": "副词",
+        "D": "代词"
+      }
+    },
+    {
+      "id": "Q049",
+      "type": "语言逻辑",
+      "module": "直接宾语 / 间接宾语",
+      "dimension": "语言逻辑",
+      "knowledge": "句子成分识别",
+      "difficulty": 4,
+      "answer": "D",
+      "diagnostic_tag": "直接宾语和间接宾语区分弱",
+      "audio_status": null,
+      "stem": "句子 Luca regala un libro a Giulia. 正确分析是：",
+      "options": {
+        "A": "Luca 是直接宾语，un libro 是主语",
+        "B": "a Giulia 是直接宾语，un libro 是间接宾语",
+        "C": "regala 是名词，Luca 是动词",
+        "D": "un libro 是直接宾语，a Giulia 是间接宾语"
+      }
+    },
+    {
+      "id": "Q050",
+      "type": "真实生活场景",
+      "module": "医疗",
+      "dimension": "听力理解",
+      "knowledge": "预约检查",
+      "difficulty": 3,
+      "answer": "A",
+      "diagnostic_tag": "医疗预约听力弱",
+      "audio_status": "future_audio_required",
+      "stem": "听力材料文字版：La visita è venerdì alle nove, non giovedì. 正确理解是：",
+      "options": {
+        "A": "预约是周五9点，不是周四",
+        "B": "预约是周四9点，不是周五",
+        "C": "周五9点药店关门",
+        "D": "周四和周五都有预约"
+      }
+    },
+    {
+      "id": "Q051",
+      "type": "真实生活场景",
+      "module": "药店",
+      "dimension": "阅读理解",
+      "knowledge": "用药频率",
+      "difficulty": 3,
+      "answer": "C",
+      "diagnostic_tag": "药品说明阅读弱",
+      "audio_status": null,
+      "stem": "药品说明：Usare lo spray nasale due volte al giorno: mattina e sera. 正确理解是：",
+      "options": {
+        "A": "每天早上用两次",
+        "B": "每天晚上用两次",
+        "C": "每天用两次，早晚各一次",
+        "D": "两天用一次，早上或晚上都可以"
+      }
+    },
+    {
+      "id": "Q052",
+      "type": "真实生活场景",
+      "module": "餐厅",
+      "dimension": "交际反应",
+      "knowledge": "结账",
+      "difficulty": 2,
+      "answer": "B",
+      "diagnostic_tag": "餐厅结账表达弱",
+      "audio_status": null,
+      "stem": "吃完饭，你想说“可以买单吗？”哪一句最合适？",
+      "options": {
+        "A": "Posso ordinare?",
+        "B": "Posso avere il conto?",
+        "C": "Posso avere una bottiglia d acqua?",
+        "D": "Posso avere il menu?"
+      }
+    },
+    {
+      "id": "Q053",
+      "type": "真实生活场景",
+      "module": "超市",
+      "dimension": "阅读理解",
+      "knowledge": "量词",
+      "difficulty": 3,
+      "answer": "D",
+      "diagnostic_tag": "购物量词理解弱",
+      "audio_status": null,
+      "stem": "购物清单：una bottiglia d acqua, un pacco di pasta, due etti di prosciutto。清单里没有：",
+      "options": {
+        "A": "一瓶水",
+        "B": "一包意面",
+        "C": "两百克火腿",
+        "D": "一公斤奶酪"
+      }
+    },
+    {
+      "id": "Q054",
+      "type": "真实生活场景",
+      "module": "火车站",
+      "dimension": "交际反应",
+      "knowledge": "确认列车",
+      "difficulty": 3,
+      "answer": "A",
+      "diagnostic_tag": "火车站确认信息弱",
+      "audio_status": null,
+      "stem": "你站在站台上，想确认“这是去罗马的火车吗？”哪一句最合适？",
+      "options": {
+        "A": "È questo il treno per Roma?",
+        "B": "Questo treno viene da Roma?",
+        "C": "Questo treno ferma a Roma?",
+        "D": "Da che binario parte il treno per Roma?"
+      }
+    },
+    {
+      "id": "Q055",
+      "type": "真实生活场景",
+      "module": "公交车",
+      "dimension": "听力理解",
+      "knowledge": "下车地点",
+      "difficulty": 3,
+      "answer": "C",
+      "diagnostic_tag": "公交听力关键信息弱",
+      "audio_status": "future_audio_required",
+      "stem": "听力材料文字版：Scendi alla terza fermata, poi attraversa la strada. 正确理解是：",
+      "options": {
+        "A": "在第一站下车，然后左转",
+        "B": "在第三站上车，然后买票",
+        "C": "在第三站下车，然后过马路",
+        "D": "在终点站下车，然后坐火车"
+      }
+    },
+    {
+      "id": "Q056",
+      "type": "真实生活场景",
+      "module": "飞机",
+      "dimension": "阅读理解",
+      "knowledge": "行李超重",
+      "difficulty": 4,
+      "answer": "B",
+      "diagnostic_tag": "机场行李信息理解弱",
+      "audio_status": null,
+      "stem": "工作人员说：Il bagaglio supera il peso consentito. 这表示：",
+      "options": {
+        "A": "行李可以直接带上飞机",
+        "B": "行李超过允许重量",
+        "C": "行李已经丢失",
+        "D": "行李不需要托运"
+      }
+    },
+    {
+      "id": "Q057",
+      "type": "真实生活场景",
+      "module": "租房",
+      "dimension": "阅读理解",
+      "knowledge": "看房时间",
+      "difficulty": 3,
+      "answer": "D",
+      "diagnostic_tag": "租房预约信息理解弱",
+      "audio_status": null,
+      "stem": "房东发短信：Puoi venire a vedere la casa lunedì pomeriggio alle 16? 房东在问：",
+      "options": {
+        "A": "你能周一上午10点搬家吗？",
+        "B": "你想不想买这套房？",
+        "C": "你能今天下午4点签合同吗？",
+        "D": "你能周一下午4点来看房吗？"
+      }
+    },
+    {
+      "id": "Q058",
+      "type": "真实生活场景",
+      "module": "邮局",
+      "dimension": "交际反应",
+      "knowledge": "挂号信",
+      "difficulty": 3,
+      "answer": "A",
+      "diagnostic_tag": "邮局挂号信表达弱",
+      "audio_status": null,
+      "stem": "你想寄一封挂号信。哪一句最合适？",
+      "options": {
+        "A": "Vorrei spedire una raccomandata.",
+        "B": "Vorrei spedire una cartolina.",
+        "C": "Vorrei ritirare un pacco.",
+        "D": "Vorrei pagare una bolletta."
+      }
+    },
+    {
+      "id": "Q059",
+      "type": "真实生活场景",
+      "module": "城市问路",
+      "dimension": "阅读理解",
+      "knowledge": "地点位置",
+      "difficulty": 2,
+      "answer": "C",
+      "diagnostic_tag": "城市地点描述理解弱",
+      "audio_status": null,
+      "stem": "La banca è accanto alla posta. 这句话表示：",
+      "options": {
+        "A": "银行在邮局里面",
+        "B": "银行在邮局对面",
+        "C": "银行在邮局旁边",
+        "D": "银行离邮局很远"
+      }
+    },
+    {
+      "id": "Q060",
+      "type": "真实生活场景",
+      "module": "医疗",
+      "dimension": "交际反应",
+      "knowledge": "说明过敏",
+      "difficulty": 4,
+      "answer": "B",
+      "diagnostic_tag": "医疗重要信息表达弱",
+      "audio_status": null,
+      "stem": "看医生时，你想说“我对这种药过敏”。哪一句最合适？",
+      "options": {
+        "A": "Sono allergico/a alla penicillina.",
+        "B": "Sono allergico/a a questo farmaco.",
+        "C": "Ho preso questo farmaco ieri.",
+        "D": "Questo farmaco mi fa venire sonno."
+      }
+    },
+    {
+      "id": "Q061",
+      "type": "真实生活场景",
+      "module": "Persona e presentazione",
+      "dimension": "阅读理解",
+      "knowledge": "自我介绍信息提取",
+      "difficulty": 2,
+      "answer": "C",
+      "diagnostic_tag": "基础个人信息理解弱",
+      "audio_status": null,
+      "stem": "阅读：Ciao, mi chiamo Li Mei. Sono cinese, sono nata a Shanghai, ma adesso vivo a Bologna con mio marito. Li Mei 现在住在哪里？",
+      "options": {
+        "A": "A Shanghai",
+        "B": "In Cina",
+        "C": "A Bologna",
+        "D": "A Roma"
+      }
+    },
+    {
+      "id": "Q062",
+      "type": "真实生活场景",
+      "module": "Persona e presentazione",
+      "dimension": "交际反应",
+      "knowledge": "询问姓名",
+      "difficulty": 2,
+      "answer": "A",
+      "diagnostic_tag": "自我介绍问答弱",
+      "audio_status": null,
+      "stem": "第一次见面时，你想问对方叫什么名字。哪一句最合适？",
+      "options": {
+        "A": "Come ti chiami?",
+        "B": "Dove lavori?",
+        "C": "Quanti anni ha tuo figlio?",
+        "D": "Ti va di uscire?"
+      }
+    },
+    {
+      "id": "Q063",
+      "type": "真实生活场景",
+      "module": "Persona e presentazione",
+      "dimension": "阅读理解",
+      "knowledge": "在意大利多久",
+      "difficulty": 3,
+      "answer": "D",
+      "diagnostic_tag": "时间信息理解弱",
+      "audio_status": null,
+      "stem": "阅读：Sono in Italia da sei mesi. Prima abitavo a Pechino, adesso vivo a Firenze. 这说明说话人：",
+      "options": {
+        "A": "六年前离开意大利",
+        "B": "现在住在北京",
+        "C": "已经在佛罗伦萨住了六年",
+        "D": "已经在意大利六个月"
+      }
+    },
+    {
+      "id": "Q064",
+      "type": "真实生活场景",
+      "module": "Persona e presentazione",
+      "dimension": "阅读理解",
+      "knowledge": "家庭成员",
+      "difficulty": 2,
+      "answer": "B",
+      "diagnostic_tag": "家庭信息理解弱",
+      "audio_status": null,
+      "stem": "阅读：Nella mia famiglia siamo in quattro: mio padre, mia madre, mio fratello ed io. 说话人家里几个人？",
+      "options": {
+        "A": "Tre",
+        "B": "Quattro",
+        "C": "Cinque",
+        "D": "Due"
+      }
+    },
+    {
+      "id": "Q065",
+      "type": "真实生活场景",
+      "module": "Persona e presentazione",
+      "dimension": "交际反应",
+      "knowledge": "生日表达",
+      "difficulty": 3,
+      "answer": "C",
+      "diagnostic_tag": "生日表达弱",
+      "audio_status": null,
+      "stem": "别人问：Quando è il tuo compleanno? 你想回答“我的生日是5月10日”。",
+      "options": {
+        "A": "Sono nato il dieci maggio.",
+        "B": "Ho dieci anni a maggio.",
+        "C": "Il mio compleanno è il dieci maggio.",
+        "D": "Il compleanno mi piace a maggio."
+      }
+    },
+    {
+      "id": "Q066",
+      "type": "真实生活场景",
+      "module": "Persona e presentazione",
+      "dimension": "听力理解",
+      "knowledge": "宠物信息",
+      "difficulty": 2,
+      "answer": "A",
+      "diagnostic_tag": "宠物与家庭信息听力弱",
+      "audio_status": "future_audio_required",
+      "stem": "听力材料文字版：Ho una gattina. Si chiama Nuomi ed è molto carina. 说话人有：",
+      "options": {
+        "A": "一只小猫",
+        "B": "一只狗",
+        "C": "两只猫",
+        "D": "一只鸟"
+      }
+    },
+    {
+      "id": "Q067",
+      "type": "真实生活场景",
+      "module": "Lavoro e studio",
+      "dimension": "阅读理解",
+      "knowledge": "职业与工作地点",
+      "difficulty": 3,
+      "answer": "D",
+      "diagnostic_tag": "工作信息理解弱",
+      "audio_status": null,
+      "stem": "阅读：Sono parrucchiere. Lavoro in un salone in centro, dal martedì al sabato. 说话人的工作是：",
+      "options": {
+        "A": "医生",
+        "B": "老师",
+        "C": "服务员",
+        "D": "理发师"
+      }
+    },
+    {
+      "id": "Q068",
+      "type": "真实生活场景",
+      "module": "Lavoro e studio",
+      "dimension": "阅读理解",
+      "knowledge": "工作时间",
+      "difficulty": 3,
+      "answer": "B",
+      "diagnostic_tag": "工作时间理解弱",
+      "audio_status": null,
+      "stem": "招聘广告：Bar cerca cameriere/a. Orario: 18:00-23:00, venerdì e sabato. 这份工作需要什么时候上班？",
+      "options": {
+        "A": "周一到周五早上",
+        "B": "周五和周六晚上",
+        "C": "每天上午10点到下午6点",
+        "D": "只在周日中午"
+      }
+    },
+    {
+      "id": "Q069",
+      "type": "真实生活场景",
+      "module": "Lavoro e studio",
+      "dimension": "交际反应",
+      "knowledge": "询问职业",
+      "difficulty": 2,
+      "answer": "C",
+      "diagnostic_tag": "工作问答表达弱",
+      "audio_status": null,
+      "stem": "你想问对方“你做什么工作？”哪一句最合适？",
+      "options": {
+        "A": "Dove sei nato?",
+        "B": "Da quanto tempo sei in Italia?",
+        "C": "Che lavoro fai?",
+        "D": "Quanti anni hai?"
+      }
+    },
+    {
+      "id": "Q070",
+      "type": "真实生活场景",
+      "module": "Lavoro e studio",
+      "dimension": "阅读理解",
+      "knowledge": "工作感受与原因",
+      "difficulty": 3,
+      "answer": "A",
+      "diagnostic_tag": "原因表达理解弱",
+      "audio_status": null,
+      "stem": "阅读：Mi piace il mio lavoro perché posso conoscere tante persone e imparare cose nuove. 喜欢工作的原因是：",
+      "options": {
+        "A": "可以认识很多人，也能学习新东西",
+        "B": "工作时间很短",
+        "C": "离家很近",
+        "D": "工资很高"
+      }
+    },
+    {
+      "id": "Q071",
+      "type": "真实生活场景",
+      "module": "Lavoro e studio",
+      "dimension": "听力理解",
+      "knowledge": "学习情况",
+      "difficulty": 3,
+      "answer": "D",
+      "diagnostic_tag": "学习信息听力弱",
+      "audio_status": "future_audio_required",
+      "stem": "听力材料文字版：Studio italiano tre volte alla settimana. Faccio i compiti la sera dopo il lavoro. 正确理解是：",
+      "options": {
+        "A": "每天早上学习意大利语",
+        "B": "不做作业",
+        "C": "只在周末工作",
+        "D": "每周学三次意大利语，下班后晚上做作业"
+      }
+    },
+    {
+      "id": "Q072",
+      "type": "语法运用",
+      "module": "Lavoro e studio",
+      "dimension": "交际反应",
+      "knowledge": "表达工作地点",
+      "difficulty": 2,
+      "answer": "B",
+      "diagnostic_tag": "工作地点表达弱",
+      "audio_status": null,
+      "stem": "你想说“我在家工作”。哪一句最合适？",
+      "options": {
+        "A": "Lavoro in ufficio.",
+        "B": "Lavoro da casa.",
+        "C": "Lavoro in un salone.",
+        "D": "Studio da casa."
+      }
+    },
+    {
+      "id": "Q073",
+      "type": "真实生活场景",
+      "module": "Tempo libero e hobby",
+      "dimension": "阅读理解",
+      "knowledge": "周末活动",
+      "difficulty": 3,
+      "answer": "C",
+      "diagnostic_tag": "空闲时间文本理解弱",
+      "audio_status": null,
+      "stem": "阅读：Nel fine settimana di solito esco con i miei amici. Se piove, resto a casa e guardo un film. 如果下雨，说话人通常会：",
+      "options": {
+        "A": "去爬山",
+        "B": "去餐厅工作",
+        "C": "待在家看电影",
+        "D": "去火车站"
+      }
+    },
+    {
+      "id": "Q074",
+      "type": "语法运用",
+      "module": "Tempo libero e hobby",
+      "dimension": "交际反应",
+      "knowledge": "邀请 Ti va di...",
+      "difficulty": 3,
+      "answer": "A",
+      "diagnostic_tag": "邀请表达弱",
+      "audio_status": null,
+      "stem": "你想邀请朋友一起喝咖啡。哪一句最自然？",
+      "options": {
+        "A": "Ti va di prendere un caffè insieme?",
+        "B": "Devi prendere un caffè da solo?",
+        "C": "Hai preso un caffè ieri?",
+        "D": "Prendi sempre il caffè?"
+      }
+    },
+    {
+      "id": "Q075",
+      "type": "真实生活场景",
+      "module": "Tempo libero e hobby",
+      "dimension": "交际反应",
+      "knowledge": "拒绝邀请并说明原因",
+      "difficulty": 3,
+      "answer": "D",
+      "diagnostic_tag": "邀请回应表达弱",
+      "audio_status": null,
+      "stem": "朋友说：Ti va di andare al cinema stasera? 你今晚不能去，因为要学习。哪句最合适？",
+      "options": {
+        "A": "Mi dispiace, stasera lavoro.",
+        "B": "Mi dispiace, sono già impegnata.",
+        "C": "Volentieri, a che ora?",
+        "D": "Mi dispiace, non posso perché devo studiare."
+      }
+    },
+    {
+      "id": "Q076",
+      "type": "真实生活场景",
+      "module": "Tempo libero e hobby",
+      "dimension": "阅读理解",
+      "knowledge": "喜好表达",
+      "difficulty": 2,
+      "answer": "B",
+      "diagnostic_tag": "喜好表达理解弱",
+      "audio_status": null,
+      "stem": "Mi piace leggere, ma non mi piace correre. 正确理解是：",
+      "options": {
+        "A": "喜欢跑步，但不喜欢阅读",
+        "B": "喜欢阅读，但不喜欢跑步",
+        "C": "既喜欢阅读也喜欢跑步",
+        "D": "既不喜欢阅读也不喜欢跑步"
+      }
+    },
+    {
+      "id": "Q077",
+      "type": "真实生活场景",
+      "module": "Tempo libero e hobby",
+      "dimension": "听力理解",
+      "knowledge": "频率副词",
+      "difficulty": 3,
+      "answer": "C",
+      "diagnostic_tag": "频率信息听力弱",
+      "audio_status": "future_audio_required",
+      "stem": "听力材料文字版：Vado spesso in palestra, ma non ci vado mai la domenica. 正确理解是：",
+      "options": {
+        "A": "每天周日去健身房",
+        "B": "从不去健身房",
+        "C": "经常去健身房，但周日从不去",
+        "D": "只在周日去健身房"
+      }
+    },
+    {
+      "id": "Q078",
+      "type": "真实生活场景",
+      "module": "Persona e presentazione",
+      "dimension": "阅读理解",
+      "knowledge": "出生地与居住地区分",
+      "difficulty": 3,
+      "answer": "A",
+      "diagnostic_tag": "出生地居住地信息混淆",
+      "audio_status": null,
+      "stem": "阅读：Sono nata a Nanchino, ma vivo a Milano da due anni. 哪项正确？",
+      "options": {
+        "A": "她出生在南京，现在住在米兰",
+        "B": "她出生在米兰，现在住在南京",
+        "C": "她在南京住了两年",
+        "D": "她两年前出生在米兰"
+      }
+    },
+    {
+      "id": "Q079",
+      "type": "真实生活场景",
+      "module": "Persona e presentazione",
+      "dimension": "交际反应",
+      "knowledge": "回答家庭成员",
+      "difficulty": 2,
+      "answer": "D",
+      "diagnostic_tag": "家庭问答表达弱",
+      "audio_status": null,
+      "stem": "别人问：Quante persone ci sono nella tua famiglia? 你想回答“我们家有三个人”。哪一句最合适？",
+      "options": {
+        "A": "Ho due fratelli e una sorella.",
+        "B": "Vivo con i miei genitori.",
+        "C": "Ho una famiglia molto grande.",
+        "D": "Nella mia famiglia siamo in tre."
+      }
+    },
+    {
+      "id": "Q080",
+      "type": "真实生活场景",
+      "module": "Lavoro e studio",
+      "dimension": "阅读理解",
+      "knowledge": "课程介绍",
+      "difficulty": 3,
+      "answer": "B",
+      "diagnostic_tag": "学习安排阅读弱",
+      "audio_status": null,
+      "stem": "课程介绍：Corso di italiano A2: lunedì e mercoledì, 19:00-20:30. Lezione online. 这门课是：",
+      "options": {
+        "A": "周一和周三线下课，上午上课",
+        "B": "周一和周三晚上线上课",
+        "C": "周二和周四晚上线上课",
+        "D": "每天晚上线下课"
+      }
+    },
+    {
+      "id": "Q081",
+      "type": "语法运用",
+      "module": "动词",
+      "dimension": "语法运用",
+      "knowledge": "现在时动词变位",
+      "difficulty": 2,
+      "answer": "C",
+      "diagnostic_tag": "现在时变位弱",
+      "audio_status": null,
+      "stem": "补全句子：Io e mio marito _____ a Bologna.",
+      "options": {
+        "A": "vive",
+        "B": "vivo",
+        "C": "viviamo",
+        "D": "vivono"
+      }
+    },
+    {
+      "id": "Q082",
+      "type": "语法运用",
+      "module": "前置词",
+      "dimension": "语法运用",
+      "knowledge": "出生地表达",
+      "difficulty": 2,
+      "answer": "A",
+      "diagnostic_tag": "出生地前置词弱",
+      "audio_status": null,
+      "stem": "选择正确句子：",
+      "options": {
+        "A": "Sono nato a Roma.",
+        "B": "Sono nato da Roma.",
+        "C": "Sono nato in Roma.",
+        "D": "Sono nato per Roma."
+      }
+    },
+    {
+      "id": "Q083",
+      "type": "语法运用",
+      "module": "近过去时",
+      "dimension": "语法运用",
+      "knowledge": "过去经历表达",
+      "difficulty": 3,
+      "answer": "D",
+      "diagnostic_tag": "近过去时输出弱",
+      "audio_status": null,
+      "stem": "补全句子：Ieri sera Maria _____ un film a casa.",
+      "options": {
+        "A": "ha guardare",
+        "B": "è guardato",
+        "C": "guarda",
+        "D": "ha guardato"
+      }
+    },
+    {
+      "id": "Q084",
+      "type": "语法运用",
+      "module": "代词",
+      "dimension": "语法运用",
+      "knowledge": "mi piace + 动词原形",
+      "difficulty": 3,
+      "answer": "B",
+      "diagnostic_tag": "喜好结构弱",
+      "audio_status": null,
+      "stem": "选择正确表达“我喜欢读书”。",
+      "options": {
+        "A": "Leggo spesso la sera.",
+        "B": "Mi piace leggere.",
+        "C": "Mi piace guardare film.",
+        "D": "Mi piace molto la musica."
+      }
+    },
+    {
+      "id": "Q085",
+      "type": "语法运用",
+      "module": "副词",
+      "dimension": "语法运用",
+      "knowledge": "频率副词",
+      "difficulty": 3,
+      "answer": "C",
+      "diagnostic_tag": "频率副词使用弱",
+      "audio_status": null,
+      "stem": "哪一句最自然地表达“我通常周末学习意大利语”？",
+      "options": {
+        "A": "Studio italiano il fine settimana di solito sempre.",
+        "B": "Di solito studiare italiano nel fine settimana.",
+        "C": "Di solito studio italiano nel fine settimana.",
+        "D": "Studio di solito italiano è fine settimana."
+      }
+    },
+    {
+      "id": "Q086",
+      "type": "语法运用",
+      "module": "冠词、名词、形容词",
+      "dimension": "语法运用",
+      "knowledge": "形容词性数配合",
+      "difficulty": 2,
+      "answer": "A",
+      "diagnostic_tag": "形容词性数配合弱",
+      "audio_status": null,
+      "stem": "补全句子：I miei amici sono molto _____.",
+      "options": {
+        "A": "simpatici",
+        "B": "simpatica",
+        "C": "simpatico",
+        "D": "simpatiche"
+      }
+    },
+    {
+      "id": "Q087",
+      "type": "语言逻辑",
+      "module": "句子结构",
+      "dimension": "语言逻辑",
+      "knowledge": "完整自然表达",
+      "difficulty": 3,
+      "answer": "D",
+      "diagnostic_tag": "句子完整表达判断弱",
+      "audio_status": null,
+      "stem": "哪一句最准确表达“我和我的家人住在都灵”？",
+      "options": {
+        "A": "Sono cinese e vengo da Shanghai.",
+        "B": "La mia famiglia vive in Cina.",
+        "C": "Abito a Torino da due anni.",
+        "D": "Vivo a Torino con la mia famiglia."
+      }
+    },
+    {
+      "id": "Q088",
+      "type": "语言逻辑",
+      "module": "主语、动词、宾语判断",
+      "dimension": "语言逻辑",
+      "knowledge": "主语识别",
+      "difficulty": 3,
+      "answer": "B",
+      "diagnostic_tag": "主语识别弱",
+      "audio_status": null,
+      "stem": "句子 Mia sorella studia medicina a Padova. 里面，主语是：",
+      "options": {
+        "A": "medicina",
+        "B": "Mia sorella",
+        "C": "studia",
+        "D": "a Padova"
+      }
+    },
+    {
+      "id": "Q089",
+      "type": "语言逻辑",
+      "module": "直接宾语 / 间接宾语",
+      "dimension": "语言逻辑",
+      "knowledge": "直接宾语识别",
+      "difficulty": 3,
+      "answer": "C",
+      "diagnostic_tag": "直接宾语识别弱",
+      "audio_status": null,
+      "stem": "句子 Guardo un film con i miei amici. 里面，直接宾语是：",
+      "options": {
+        "A": "io",
+        "B": "con i miei amici",
+        "C": "un film",
+        "D": "guardo"
+      }
+    },
+    {
+      "id": "Q090",
+      "type": "语言逻辑",
+      "module": "词性意识",
+      "dimension": "语言逻辑",
+      "knowledge": "动词识别",
+      "difficulty": 2,
+      "answer": "A",
+      "diagnostic_tag": "词性识别弱",
+      "audio_status": null,
+      "stem": "句子 Lavoro in un ristorante. 里面，lavoro 是：",
+      "options": {
+        "A": "动词",
+        "B": "名词",
+        "C": "形容词",
+        "D": "副词"
+      }
+    },
+    {
+      "id": "Q091",
+      "type": "真实生活场景",
+      "module": "餐厅",
+      "dimension": "阅读理解",
+      "knowledge": "餐厅短信预约",
+      "difficulty": 3,
+      "answer": "D",
+      "diagnostic_tag": "餐厅预约信息理解弱",
+      "audio_status": null,
+      "stem": "餐厅回复短信：Buongiorno, la prenotazione per 3 persone alle 20:00 è confermata. 短信说明：",
+      "options": {
+        "A": "预约被取消了",
+        "B": "只能19点来",
+        "C": "预约是2个人",
+        "D": "3个人20点的预约已确认"
+      }
+    },
+    {
+      "id": "Q092",
+      "type": "真实生活场景",
+      "module": "超市",
+      "dimension": "交际反应",
+      "knowledge": "代买东西",
+      "difficulty": 3,
+      "answer": "B",
+      "diagnostic_tag": "购物任务理解与表达弱",
+      "audio_status": null,
+      "stem": "朋友发消息：Puoi comprare due bottiglie d acqua e un pacco di pasta? 你可以帮忙，怎么回复最合适？",
+      "options": {
+        "A": "Mi dispiace, oggi non riesco.",
+        "B": "Sì, certo. Le compro dopo il lavoro.",
+        "C": "Sì, ma posso comprarle domani?",
+        "D": "Ho già comprato il pane e il latte."
+      }
+    },
+    {
+      "id": "Q093",
+      "type": "真实生活场景",
+      "module": "火车站",
+      "dimension": "阅读理解",
+      "knowledge": "车票信息",
+      "difficulty": 3,
+      "answer": "C",
+      "diagnostic_tag": "火车票信息读取弱",
+      "audio_status": null,
+      "stem": "车票：Bologna Centrale → Firenze S.M.N. Partenza 09:12 Arrivo 10:00。这张票表示：",
+      "options": {
+        "A": "从佛罗伦萨到博洛尼亚，9:12到达",
+        "B": "从博洛尼亚到罗马，10:00出发",
+        "C": "从博洛尼亚到佛罗伦萨，9:12出发，10:00到达",
+        "D": "从佛罗伦萨到博洛尼亚，10:00出发"
+      }
+    },
+    {
+      "id": "Q094",
+      "type": "真实生活场景",
+      "module": "租房",
+      "dimension": "阅读理解",
+      "knowledge": "住房广告",
+      "difficulty": 4,
+      "answer": "A",
+      "diagnostic_tag": "住房信息综合理解弱",
+      "audio_status": null,
+      "stem": "房源广告：Monolocale in centro, 650 euro al mese, spese escluse. Libero da settembre. 哪项正确？",
+      "options": {
+        "A": "市中心一居室，月租650欧，不含费用，9月起可入住",
+        "B": "市中心两居室，650欧含费用",
+        "C": "9月必须搬出，月租不清楚",
+        "D": "房子在郊区，费用全包"
+      }
+    },
+    {
+      "id": "Q095",
+      "type": "真实生活场景",
+      "module": "医疗",
+      "dimension": "听力理解",
+      "knowledge": "医生问诊",
+      "difficulty": 3,
+      "answer": "D",
+      "diagnostic_tag": "医生问诊听力弱",
+      "audio_status": "future_audio_required",
+      "stem": "听力材料文字版：Da quanti giorni ha la tosse? 医生在问：",
+      "options": {
+        "A": "你几点吃药？",
+        "B": "你在哪里咳嗽？",
+        "C": "你有没有发烧？",
+        "D": "你咳嗽几天了？"
+      }
+    },
+    {
+      "id": "Q096",
+      "type": "真实生活场景",
+      "module": "药店",
+      "dimension": "交际反应",
+      "knowledge": "说明症状买药",
+      "difficulty": 3,
+      "answer": "A",
+      "diagnostic_tag": "药店症状表达弱",
+      "audio_status": null,
+      "stem": "你鼻塞，想在药店买点药。哪一句最合适？",
+      "options": {
+        "A": "Ho il naso chiuso. Vorrei qualcosa per questo.",
+        "B": "Mi fa male la gola.",
+        "C": "Ho la febbre alta.",
+        "D": "Mi fa male lo stomaco."
+      }
+    },
+    {
+      "id": "Q097",
+      "type": "真实生活场景",
+      "module": "城市问路",
+      "dimension": "阅读理解",
+      "knowledge": "城市描述",
+      "difficulty": 3,
+      "answer": "C",
+      "diagnostic_tag": "城市描述理解弱",
+      "audio_status": null,
+      "stem": "城市介绍：È una città piccola ma molto vivace. Ci sono tanti studenti, bar e ristoranti. 这座城市：",
+      "options": {
+        "A": "很大但很安静",
+        "B": "没有学生，也没有餐厅",
+        "C": "小但很有活力，有很多学生、酒吧和餐厅",
+        "D": "是一个只有火车站的城市"
+      }
+    },
+    {
+      "id": "Q098",
+      "type": "真实生活场景",
+      "module": "飞机",
+      "dimension": "阅读理解",
+      "knowledge": "登机信息",
+      "difficulty": 3,
+      "answer": "A",
+      "diagnostic_tag": "机场信息理解弱",
+      "audio_status": null,
+      "stem": "登机牌：Gate C4, Imbarco 14:20, Posto 12A。正确理解是：",
+      "options": {
+        "A": "登机口C4，14:20登机，座位12A",
+        "B": "14:20到达，座位C4",
+        "C": "登机口12A，座位C4",
+        "D": "这是一张火车票"
+      }
+    },
+    {
+      "id": "Q099",
+      "type": "真实生活场景",
+      "module": "邮局",
+      "dimension": "阅读理解",
+      "knowledge": "邮局营业时间",
+      "difficulty": 3,
+      "answer": "D",
+      "diagnostic_tag": "邮局营业信息理解弱",
+      "audio_status": null,
+      "stem": "邮局门口写着：Orario: lunedì-venerdì 8:30-13:30. Sabato chiuso. 哪项正确？",
+      "options": {
+        "A": "周六上午营业",
+        "B": "每天下午营业",
+        "C": "周一到周五8:30-18:30营业",
+        "D": "周一到周五上午营业，周六关门"
+      }
+    },
+    {
+      "id": "Q100",
+      "type": "真实生活场景",
+      "module": "Tempo libero e hobby",
+      "dimension": "听力理解",
+      "knowledge": "邀请与安排",
+      "difficulty": 4,
+      "answer": "B",
+      "diagnostic_tag": "邀请安排听力综合弱",
+      "audio_status": "future_audio_required",
+      "stem": "听力材料文字版：Sabato pomeriggio vado al parco con Luca. Ti va di venire con noi? 说话人想表达：",
+      "options": {
+        "A": "周六上午一个人去学校",
+        "B": "周六下午和Luca去公园，并邀请你一起去",
+        "C": "周日晚上和Luca去电影院",
+        "D": "周六下午不能出门，因为要学习"
+      }
+    }
+  ]
+}
