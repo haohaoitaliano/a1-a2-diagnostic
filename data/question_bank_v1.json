@@ -535,7 +535,7 @@
       "answer": "B",
       "diagnostic_tag": "餐厅听力关键信息弱",
       "audio_status": "future_audio_required",
-      "stem": "听力材料文字版：Per me una pizza margherita e un acqua frizzante, grazie. 说话人点了什么？",
+      "stem": "听力材料文字版：Per me una pizza margherita e un'acqua frizzante, grazie. 说话人点了什么？",
       "options": {
         "A": "一份意面和一瓶矿泉水",
         "B": "一份玛格丽塔披萨和一瓶气泡水",
@@ -935,7 +935,7 @@
       "options": {
         "A": "Posso ordinare?",
         "B": "Posso avere il conto?",
-        "C": "Posso avere una bottiglia d acqua?",
+        "C": "Posso avere una bottiglia d'acqua?",
         "D": "Posso avere il menu?"
       }
     },
@@ -949,7 +949,7 @@
       "answer": "D",
       "diagnostic_tag": "购物量词理解弱",
       "audio_status": null,
-      "stem": "购物清单：una bottiglia d acqua, un pacco di pasta, due etti di prosciutto。清单里没有：",
+      "stem": "购物清单：una bottiglia d'acqua, un pacco di pasta, due etti di prosciutto。清单里没有：",
       "options": {
         "A": "一瓶水",
         "B": "一包意面",
@@ -1651,7 +1651,7 @@
       "answer": "B",
       "diagnostic_tag": "购物任务理解与表达弱",
       "audio_status": null,
-      "stem": "朋友发消息：Puoi comprare due bottiglie d acqua e un pacco di pasta? 你可以帮忙，怎么回复最合适？",
+      "stem": "朋友发消息：Puoi comprare due bottiglie d'acqua e un pacco di pasta? 你可以帮忙，怎么回复最合适？",
       "options": {
         "A": "Mi dispiace, oggi non riesco.",
         "B": "Sì, certo. Le compro dopo il lavoro.",
