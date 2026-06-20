@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="it">
   <head>
     <meta charset="utf-8" />
     <meta
@@ -7,91 +7,580 @@
       content="width=device-width, initial-scale=1, viewport-fit=cover"
     />
     <meta name="format-detection" content="telephone=no" />
-    <title>好好意语 慢速意大利语 A1-A2</title>
-    <link rel="stylesheet" href="style.css?v=1.1" />
+    <title>Comprensione orale: Matteo, Emma, Giovanni e Alice</title>
+    <style>
+      :root {
+        --bg: #f6f8f7;
+        --panel: #ffffff;
+        --text: #1f2d2b;
+        --muted: #62716d;
+        --line: #dbe5e1;
+        --primary: #0d7c66;
+        --primary-dark: #075f4d;
+        --soft: #e8f4f0;
+        --wrong-bg: #fff0f0;
+        --wrong: #b42318;
+        --right-bg: #edf8f0;
+        --right: #137333;
+        --shadow: 0 18px 45px rgba(31, 45, 43, 0.08);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        -webkit-text-size-adjust: 100%;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background:
+          linear-gradient(180deg, rgba(232, 244, 240, 0.95), rgba(246, 248, 247, 0.2) 320px),
+          var(--bg);
+        color: var(--text);
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+          "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+        line-height: 1.55;
+      }
+
+      .page {
+        width: min(920px, 100%);
+        margin: 0 auto;
+        padding: 22px 16px 40px;
+      }
+
+      header {
+        padding: 16px 0 18px;
+      }
+
+      .kicker {
+        margin: 0 0 8px;
+        color: var(--primary-dark);
+        font-size: 0.82rem;
+        font-weight: 750;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(1.7rem, 6vw, 2.7rem);
+        line-height: 1.15;
+        letter-spacing: 0;
+      }
+
+      .intro {
+        max-width: 680px;
+        margin: 12px 0 0;
+        color: var(--muted);
+        font-size: 1rem;
+      }
+
+      .audio-card,
+      .quiz-card,
+      .result-card {
+        background: rgba(255, 255, 255, 0.94);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        box-shadow: var(--shadow);
+      }
+
+      .audio-card {
+        padding: 16px;
+        margin: 6px 0 18px;
+        position: sticky;
+        top: 0;
+        z-index: 5;
+        backdrop-filter: blur(10px);
+      }
+
+      .audio-title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin-bottom: 10px;
+      }
+
+      .audio-title strong {
+        font-size: 1rem;
+      }
+
+      .audio-title span {
+        color: var(--muted);
+        font-size: 0.9rem;
+        white-space: nowrap;
+      }
+
+      audio {
+        display: block;
+        width: 100%;
+        height: 42px;
+      }
+
+      .quiz-card {
+        padding: 8px 0;
+        overflow: hidden;
+      }
+
+      .question {
+        padding: 20px 18px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .question:last-child {
+        border-bottom: 0;
+      }
+
+      .question-head {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        margin-bottom: 14px;
+      }
+
+      .number {
+        width: 34px;
+        height: 34px;
+        flex: 0 0 34px;
+        display: grid;
+        place-items: center;
+        border-radius: 50%;
+        background: var(--soft);
+        color: var(--primary-dark);
+        font-weight: 800;
+      }
+
+      .question h2 {
+        margin: 3px 0 0;
+        font-size: 1.06rem;
+        line-height: 1.35;
+        letter-spacing: 0;
+      }
+
+      .options {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        padding-left: 46px;
+      }
+
+      .option {
+        min-height: 48px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 11px 12px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fff;
+        cursor: pointer;
+        transition:
+          border-color 0.16s ease,
+          background 0.16s ease,
+          transform 0.16s ease;
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      .option:active {
+        transform: scale(0.99);
+      }
+
+      .option input {
+        width: 18px;
+        height: 18px;
+        margin: 0;
+        accent-color: var(--primary);
+        flex: 0 0 auto;
+      }
+
+      .option span {
+        min-width: 0;
+        font-weight: 650;
+      }
+
+      .option:has(input:checked) {
+        border-color: var(--primary);
+        background: var(--soft);
+      }
+
+      .question.correct {
+        background: linear-gradient(90deg, var(--right-bg), rgba(255, 255, 255, 0) 72%);
+      }
+
+      .question.incorrect {
+        background: linear-gradient(90deg, var(--wrong-bg), rgba(255, 255, 255, 0) 72%);
+      }
+
+      .question.correct .number {
+        background: var(--right);
+        color: #fff;
+      }
+
+      .question.incorrect .number {
+        background: var(--wrong);
+        color: #fff;
+      }
+
+      .feedback {
+        display: none;
+        margin: 13px 0 0 46px;
+        padding: 10px 12px;
+        border-radius: 8px;
+        font-size: 0.95rem;
+        font-weight: 650;
+      }
+
+      .question.correct .feedback,
+      .question.incorrect .feedback {
+        display: block;
+      }
+
+      .question.correct .feedback {
+        color: var(--right);
+        background: rgba(237, 248, 240, 0.8);
+      }
+
+      .question.incorrect .feedback {
+        color: var(--wrong);
+        background: rgba(255, 240, 240, 0.82);
+      }
+
+      .actions {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin: 18px 0 0;
+      }
+
+      .answer-count {
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      button {
+        min-height: 48px;
+        border: 0;
+        border-radius: 8px;
+        padding: 0 22px;
+        background: var(--primary);
+        color: #fff;
+        font: inherit;
+        font-weight: 800;
+        cursor: pointer;
+        box-shadow: 0 10px 20px rgba(13, 124, 102, 0.2);
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      button:active {
+        transform: translateY(1px);
+      }
+
+      .result-card {
+        display: none;
+        margin-top: 18px;
+        padding: 18px;
+        border-color: rgba(13, 124, 102, 0.25);
+      }
+
+      .result-card.show {
+        display: block;
+      }
+
+      .score {
+        margin: 0;
+        font-size: clamp(1.35rem, 5vw, 2rem);
+        font-weight: 850;
+        white-space: pre-line;
+      }
+
+      .score-note {
+        margin: 6px 0 0;
+        color: var(--muted);
+      }
+
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+
+      @media (max-width: 640px) {
+        .page {
+          padding: 16px 12px 32px;
+        }
+
+        header {
+          padding-top: 8px;
+        }
+
+        .audio-card {
+          margin-left: -4px;
+          margin-right: -4px;
+          padding: 14px 12px;
+        }
+
+        .audio-title {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 2px;
+        }
+
+        .audio-title span {
+          white-space: normal;
+        }
+
+        .question {
+          padding: 18px 14px;
+        }
+
+        .question-head {
+          gap: 10px;
+        }
+
+        .number {
+          width: 30px;
+          height: 30px;
+          flex-basis: 30px;
+          font-size: 0.9rem;
+        }
+
+        .options {
+          grid-template-columns: 1fr;
+          padding-left: 40px;
+        }
+
+        .feedback {
+          margin-left: 40px;
+        }
+
+        .actions {
+          position: sticky;
+          bottom: 0;
+          margin-left: -12px;
+          margin-right: -12px;
+          padding: 12px;
+          background: rgba(246, 248, 247, 0.94);
+          border-top: 1px solid var(--line);
+          backdrop-filter: blur(10px);
+        }
+
+        .answer-count {
+          font-size: 0.86rem;
+        }
+
+        button {
+          flex: 1;
+          padding: 0 14px;
+        }
+      }
+    </style>
   </head>
   <body>
-    <header class="topbar">
-      <div class="brand">
-        <p>好好意语</p>
-        <h1>慢速意大利语 A1-A2</h1>
-        <span>结课总结与能力诊断</span>
+    <main class="page">
+      <header>
+        <p class="kicker">Comprensione orale</p>
+        <h1>Matteo, Emma, Giovanni e Alice</h1>
+        <p class="intro">
+          Ascolta l'audio e scegli la persona corretta per ogni domanda.
+        </p>
+      </header>
+
+      <section class="audio-card" aria-labelledby="audioHeading">
+        <div class="audio-title">
+          <strong id="audioHeading">Audio</strong>
+          <span>matteo-emma-alice.mp3</span>
+        </div>
+        <audio controls preload="metadata">
+          <source src="matteo-emma-alice.mp3" type="audio/mpeg" />
+          Il tuo browser non supporta il lettore audio.
+        </audio>
+      </section>
+
+      <form id="quizForm" class="quiz-card" novalidate></form>
+
+      <div class="actions">
+        <span id="answerCount" class="answer-count">0/10 risposte</span>
+        <button id="submitBtn" type="button">Invia le risposte</button>
       </div>
-    </header>
 
-    <main class="app">
-      <section id="homeView" class="screen active">
-        <div class="hero">
-          <p class="kicker">A1-A2 Final Diagnostic</p>
-          <h2>看看你是否真正完成了 A1-A2 的学习目标</h2>
-          <p class="course-note">你已经学完了 110 节课程。</p>
-          <p class="check-intro">现在，让我们一起看看：</p>
-          <ul class="home-checklist">
-            <li>你是否已经达到 A2 水平</li>
-            <li>哪些模块掌握得最扎实</li>
-            <li>哪些内容还需要查缺补漏</li>
-            <li>是否已经具备进入 B1 的准备</li>
-          </ul>
-          <p>
-            系统将从 100 道题库中随机抽取 50 题，完成后立即生成专属学习报告。
-          </p>
-        </div>
-
-        <div class="info-grid" aria-label="测试说明">
-          <div><strong>50</strong><span>道题</span></div>
-          <div><strong>20-30</strong><span>分钟</span></div>
-          <div><strong>自动</strong><span>评分</span></div>
-          <div><strong>诊断</strong><span>报告</span></div>
-        </div>
-
-        <button id="startBtn" class="primary-btn" type="button">开始结课测试</button>
-      </section>
-
-      <section id="quizView" class="screen">
-        <div class="progress-card">
-          <div class="progress-meta">
-            <span id="questionCounter">第 1 / 50 题</span>
-            <span id="answeredBadge">0 / 50 已答</span>
-          </div>
-          <div class="progress-track" aria-hidden="true">
-            <span id="progressBar"></span>
-          </div>
-        </div>
-
-        <article class="question-card">
-          <div class="tag-row">
-            <span id="typeTag"></span>
-            <span id="moduleTag"></span>
-            <span id="difficultyTag"></span>
-          </div>
-          <h2 id="questionStem"></h2>
-          <p id="audioNotice" class="audio-notice hidden">听力题：未来需配音频</p>
-          <div id="optionsBox" class="options"></div>
-        </article>
-
-        <nav class="quiz-actions" aria-label="答题操作">
-          <button id="prevBtn" class="ghost-btn" type="button">上一题</button>
-          <button id="nextBtn" class="primary-btn" type="button">下一题</button>
-        </nav>
-      </section>
-
-      <section id="submitView" class="screen">
-        <div class="confirm-card">
-          <p class="kicker">提交确认</p>
-          <h2>确定提交本次测试吗？</h2>
-          <p id="submitSummary"></p>
-          <div class="stack-actions">
-            <button id="backToQuizBtn" class="ghost-btn" type="button">继续检查</button>
-            <button id="submitBtn" class="primary-btn" type="button">提交并查看报告</button>
-          </div>
-        </div>
-      </section>
-
-      <section id="resultView" class="screen">
-        <div id="resultPanel" class="result-panel"></div>
+      <section id="resultCard" class="result-card" aria-live="polite">
+        <p id="scoreText" class="score"></p>
+        <p class="score-note">Le risposte sono segnate sotto ogni domanda.</p>
       </section>
     </main>
 
-    <script src="script.js?v=1.1"></script>
+    <script>
+      const questions = [
+        {
+          text: "Chi lavora nel campo della moda?",
+          options: ["Emma", "Giovanni", "Matteo", "Alice"],
+          answer: "Matteo",
+        },
+        {
+          text: "Chi adora fare shopping?",
+          options: ["Matteo", "Emma", "Giovanni", "Alice"],
+          answer: "Emma",
+        },
+        {
+          text: "Chi ha incontrato sua moglie a Milano?",
+          options: ["Alice", "Giovanni", "Matteo", "Emma"],
+          answer: "Matteo",
+        },
+        {
+          text: "Chi vorrebbe diventare insegnante di italiano per stranieri?",
+          options: ["Emma", "Alice", "Giovanni", "Matteo"],
+          answer: "Alice",
+        },
+        {
+          text: "Chi fa teatro con un gruppo di studenti universitari?",
+          options: ["Matteo", "Emma", "Giovanni", "Alice"],
+          answer: "Giovanni",
+        },
+        {
+          text: "Chi lavora come cameriera?",
+          options: ["Alice", "Emma", "Matteo", "Giovanni"],
+          answer: "Alice",
+        },
+        {
+          text: "Chi ama stare con i bambini?",
+          options: ["Emma", "Alice", "Giovanni", "Matteo"],
+          answer: "Emma",
+        },
+        {
+          text: "Chi ha una band e suona la chitarra?",
+          options: ["Alice", "Emma", "Matteo", "Giovanni"],
+          answer: "Giovanni",
+        },
+        {
+          text: "Chi si interessa di ambiente ed ecologia?",
+          options: ["Matteo", "Giovanni", "Alice", "Emma"],
+          answer: "Alice",
+        },
+        {
+          text: "Chi segue le sfilate di moda e lavora per delle riviste?",
+          options: ["Giovanni", "Alice", "Emma", "Matteo"],
+          answer: "Matteo",
+        },
+      ];
+
+      const quizForm = document.querySelector("#quizForm");
+      const submitBtn = document.querySelector("#submitBtn");
+      const answerCount = document.querySelector("#answerCount");
+      const resultCard = document.querySelector("#resultCard");
+      const scoreText = document.querySelector("#scoreText");
+
+      function renderQuiz() {
+        quizForm.innerHTML = questions
+          .map((question, questionIndex) => {
+            const options = question.options
+              .map((option, optionIndex) => {
+                const letter = String.fromCharCode(65 + optionIndex);
+                const inputId = `q${questionIndex}-${optionIndex}`;
+
+                return `
+                  <label class="option" for="${inputId}">
+                    <input
+                      id="${inputId}"
+                      type="radio"
+                      name="q${questionIndex}"
+                      value="${option}"
+                    />
+                    <span>${letter}. ${option}</span>
+                  </label>
+                `;
+              })
+              .join("");
+
+            return `
+              <section class="question" data-question="${questionIndex}">
+                <div class="question-head">
+                  <span class="number">${questionIndex + 1}</span>
+                  <h2>${question.text}</h2>
+                </div>
+                <div class="options">${options}</div>
+                <p class="feedback"></p>
+              </section>
+            `;
+          })
+          .join("");
+      }
+
+      function updateAnswerCount() {
+        const answered = questions.filter((_, index) => {
+          return quizForm.querySelector(`input[name="q${index}"]:checked`);
+        }).length;
+
+        answerCount.textContent = `${answered}/10 risposte`;
+      }
+
+      function getResultMessage(score) {
+        if (score === 10) {
+          return `🎉 Ottimo lavoro!
+Hai risposto correttamente a tutte le domande.
+Continua così! 💪`;
+        }
+
+        if (score >= 8) {
+          return `👏 Ottimo lavoro!
+Hai risposto correttamente a ${score} domande su 10.
+Riascolta il video e controlla le risposte che hai sbagliato.`;
+        }
+
+        if (score >= 6) {
+          return `👍 Bravo/a!
+Hai risposto correttamente a ${score} domande su 10.
+Prova ad ascoltare il video un'altra volta.`;
+        }
+
+        return `💪 Non arrenderti!
+Questo è solo l'inizio.
+Riascolta il video e prova ancora.`;
+      }
+
+      function gradeQuiz() {
+        let score = 0;
+
+        questions.forEach((question, index) => {
+          const questionBlock = quizForm.querySelector(`[data-question="${index}"]`);
+          const selected = quizForm.querySelector(`input[name="q${index}"]:checked`);
+          const feedback = questionBlock.querySelector(".feedback");
+          const selectedAnswer = selected ? selected.value : "";
+          const isCorrect = selectedAnswer === question.answer;
+
+          questionBlock.classList.remove("correct", "incorrect");
+          questionBlock.classList.add(isCorrect ? "correct" : "incorrect");
+
+          if (isCorrect) {
+            score += 1;
+            feedback.textContent = `Corretto. Risposta: ${question.answer}.`;
+          } else if (selectedAnswer) {
+            feedback.textContent = `Sbagliato. Hai scelto ${selectedAnswer}. Risposta corretta: ${question.answer}.`;
+          } else {
+            feedback.textContent = `Non hai risposto. Risposta corretta: ${question.answer}.`;
+          }
+        });
+
+        scoreText.textContent = getResultMessage(score);
+        resultCard.classList.add("show");
+        resultCard.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+
+      renderQuiz();
+      updateAnswerCount();
+
+      quizForm.addEventListener("change", updateAnswerCount);
+      submitBtn.addEventListener("click", gradeQuiz);
+    </script>
   </body>
 </html>
