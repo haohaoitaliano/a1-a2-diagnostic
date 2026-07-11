@@ -1,29 +1,97 @@
-好好意语
-慢速意大利语 A1-A2
-结课总结与能力诊断
-A1-A2 Final Diagnostic
-看看你是否真正完成了 A1-A2 的学习目标
-你已经学完了 110 节课程。
-现在，让我们一起看看：
-	•	你是否已经达到 A2 水平
-	•	哪些模块掌握得最扎实
-	•	哪些内容还需要查缺补漏
-	•	是否已经具备进入 B1 的准备
-系统将从 100 道题库中随机抽取 50 题，完成后立即生成专属学习报告。
-50道题
-20-30分钟
-自动评分
-诊断报告
-开始结课测试
-第 1 / 50 题 0 / 50 已答
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <title>好好意语 慢速意大利语 A1-A2</title>
+    <link rel="stylesheet" href="style.css?v=1.3" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <p>好好意语</p>
+        <h1>慢速意大利语 A1-A2</h1>
+        <span>结课总结与能力诊断</span>
+      </div>
+    </header>
 
+    <main class="app">
+      <section id="homeView" class="screen active">
+        <div class="hero">
+          <p class="kicker">A1-A2 Final Diagnostic</p>
+          <h2>看看你是否真正完成了 A1-A2 的学习目标</h2>
+          <p class="course-note">你已经学完了 110 节课程。</p>
+          <p class="check-intro">现在，让我们一起看看：</p>
+          <ul class="home-checklist">
+            <li>你是否已经达到 A2 水平</li>
+            <li>哪些模块掌握得最扎实</li>
+            <li>哪些内容还需要查缺补漏</li>
+            <li>是否已经具备进入 B1 的准备</li>
+          </ul>
+          <p>
+            系统将从 100 道题库中随机抽取 50 题，完成后立即生成专属学习报告。
+          </p>
+        </div>
 
+        <div class="info-grid" aria-label="测试说明">
+          <div><strong>50</strong><span>道题</span></div>
+          <div><strong>20-30</strong><span>分钟</span></div>
+          <div><strong>自动</strong><span>评分</span></div>
+          <div><strong>诊断</strong><span>报告</span></div>
+        </div>
 
-听力题：未来需配音频
+        <button id="startBtn" class="primary-btn" type="button">开始结课测试</button>
+      </section>
 
-上一题 下一题
-提交确认
-确定提交本次测试吗？
+      <section id="quizView" class="screen">
+        <div class="progress-card">
+          <div class="progress-meta">
+            <span id="questionCounter">第 1 / 50 题</span>
+            <span id="answeredBadge">0 / 50 已答</span>
+          </div>
+          <div class="progress-track" aria-hidden="true">
+            <span id="progressBar"></span>
+          </div>
+        </div>
 
-继续检查 提交并查看报告
+        <article class="question-card">
+          <div class="tag-row">
+            <span id="typeTag"></span>
+            <span id="moduleTag"></span>
+            <span id="difficultyTag"></span>
+          </div>
+          <h2 id="questionStem"></h2>
+          <p id="audioNotice" class="audio-notice hidden">听力题：未来需配音频</p>
+          <div id="optionsBox" class="options"></div>
+        </article>
 
+        <nav class="quiz-actions" aria-label="答题操作">
+          <button id="prevBtn" class="ghost-btn" type="button">上一题</button>
+          <button id="nextBtn" class="primary-btn" type="button">下一题</button>
+        </nav>
+      </section>
+
+      <section id="submitView" class="screen">
+        <div class="confirm-card">
+          <p class="kicker">提交确认</p>
+          <h2>确定提交本次测试吗？</h2>
+          <p id="submitSummary"></p>
+          <div class="stack-actions">
+            <button id="backToQuizBtn" class="ghost-btn" type="button">继续检查</button>
+            <button id="submitBtn" class="primary-btn" type="button">提交并查看报告</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="resultView" class="screen">
+        <div id="resultPanel" class="result-panel"></div>
+      </section>
+    </main>
+
+    <script src="script.js?v=1.3"></script>
+  </body>
+</html>
