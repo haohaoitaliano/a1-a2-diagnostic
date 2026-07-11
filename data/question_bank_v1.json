@@ -19,7 +19,8 @@
         "B": "Ho la febbre e mi fa male la testa.",
         "C": "Ho mal di stomaco e la nausea.",
         "D": "Mi fa male la schiena e ho i brividi."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q002",
@@ -37,7 +38,8 @@
         "B": "每8天饭后吃一片",
         "C": "每天饭后吃一片",
         "D": "每8小时饭后吃一片"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q003",
@@ -55,7 +57,8 @@
         "B": "Vorrei prenotare un tavolo per quattro persone alle otto.",
         "C": "Vorrei ordinare due pizze da portare via alle otto.",
         "D": "Vorrei prenotare per domani alle otto."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q004",
@@ -73,7 +76,8 @@
         "B": "4,00 euro",
         "C": "5,00 euro",
         "D": "7,50 euro"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q005",
@@ -91,7 +95,8 @@
         "B": "去佛罗伦萨的区域列车将在6站台晚点15分钟出发",
         "C": "去佛罗伦萨的列车15号站台已经出发",
         "D": "1742次列车从6点15分开始检票"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q006",
@@ -109,7 +114,8 @@
         "B": "L'autobus 15 passa vicino al centro?",
         "C": "Dove posso prendere l'autobus 15?",
         "D": "L'autobus 15 va in centro?"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q007",
@@ -127,7 +133,8 @@
         "B": "你想坐靠窗还是靠过道？",
         "C": "你要去国内还是国外？",
         "D": "你有护照还是居留？"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q008",
@@ -145,7 +152,8 @@
         "B": "三居室，靠近机场，没有电梯",
         "C": "两居室，有家具，三楼无电梯，靠近火车站",
         "D": "一居室，有电梯，离火车站很远"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q009",
@@ -163,7 +171,8 @@
         "B": "Quanto costa un francobollo per la Cina?",
         "C": "Quanto tempo ci vuole per arrivare in Cina?",
         "D": "Quanto costa spedire in Cina?"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q010",
@@ -181,7 +190,8 @@
         "B": "一直直走，过了药店后左转",
         "C": "先左转，再找药店",
         "D": "到药店里问路"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q011",
@@ -199,7 +209,8 @@
         "B": "Sono a Italia per tre anni.",
         "C": "Sono da Italia in tre anni.",
         "D": "Sono in Italia a tre anni."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q012",
@@ -217,7 +228,8 @@
         "B": "è andare",
         "C": "è andato",
         "D": "ha andata"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q013",
@@ -235,7 +247,8 @@
         "B": "Le compro.",
         "C": "Gli compro.",
         "D": "La compro."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q014",
@@ -253,7 +266,8 @@
         "B": "通常",
         "C": "马上",
         "D": "只在今天"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q015",
@@ -271,7 +285,8 @@
         "B": "Bevo molta acqua.",
         "C": "Beva molta acqua.",
         "D": "Bere molta acqua ieri."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q016",
@@ -289,7 +304,8 @@
         "B": "il medico",
         "C": "una dottoressa",
         "D": "un'infermiera"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q017",
@@ -307,7 +323,8 @@
         "B": "La casa grande in centro.",
         "C": "Marco al supermercato ieri.",
         "D": "Anna compra il pane."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q018",
@@ -325,7 +342,8 @@
         "B": "la medicina",
         "C": "a Marco",
         "D": "dà"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q019",
@@ -343,7 +361,8 @@
         "B": "la cura",
         "C": "alla paziente",
         "D": "spiega"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q020",
@@ -361,7 +380,8 @@
         "B": "明天晚上要吃药",
         "C": "今天下午要去急诊",
         "D": "明天早上可以吃完饭再去检查"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q021",
@@ -379,7 +399,8 @@
         "B": "Devo prenderlo prima o dopo i pasti?",
         "C": "Quante volte al giorno devo prenderlo?",
         "D": "Per quanti giorni devo prenderlo?"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q022",
@@ -397,7 +418,8 @@
         "B": "19,50 euro",
         "C": "17,00 euro",
         "D": "21,00 euro"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q023",
@@ -415,7 +437,8 @@
         "B": "Pago con la carta.",
         "C": "No, grazie.",
         "D": "Vorrei due sacchetti."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q024",
@@ -433,7 +456,8 @@
         "B": "去威尼斯的火车取消了",
         "C": "去威尼斯的火车从1站台提前3分钟出发",
         "D": "去威尼斯的火车从3站台到达，不是出发"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q025",
@@ -451,7 +475,8 @@
         "B": "乘客正在下车",
         "C": "公交车到终点站了",
         "D": "查票员正在查票"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q026",
@@ -469,7 +494,8 @@
         "B": "AZ203 去罗马，B12 登机口，正在登机",
         "C": "AZ203 去罗马，航班取消",
         "D": "AZ203 是火车编号，不是航班"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q027",
@@ -487,7 +513,8 @@
         "B": "Quanto costa l'affitto al mese?",
         "C": "L'appartamento è già arredato?",
         "D": "L'appartamento è vicino alla stazione?"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q028",
@@ -505,7 +532,8 @@
         "B": "Devo andare in centro.",
         "C": "Scusi, mi può aiutare?",
         "D": "Sa dov'è la fermata dell'autobus?"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q029",
@@ -523,7 +551,8 @@
         "B": "普通包裹更快但更贵",
         "C": "两种寄法价格和速度一样",
         "D": "快递更快但更贵，普通包裹更慢但更便宜"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q030",
@@ -541,7 +570,8 @@
         "B": "一份玛格丽塔披萨和一瓶气泡水",
         "C": "一份披萨和一杯咖啡",
         "D": "一份鸡肉和一瓶自然水"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q031",
@@ -559,7 +589,8 @@
         "B": "腿疼，不能走路",
         "C": "喉咙疼，说话不太方便",
         "D": "眼睛疼，看不清楚"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q032",
@@ -577,7 +608,8 @@
         "B": "Vorrei qualcosa per la tosse.",
         "C": "Vorrei qualcosa per il mal di gola.",
         "D": "Vorrei qualcosa per la febbre."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q033",
@@ -595,7 +627,8 @@
         "B": "lasagne",
         "C": "pesce al forno",
         "D": "tiramisù"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q034",
@@ -613,7 +646,8 @@
         "B": "Quanto costano le arance al chilo?",
         "C": "Quante arance sono il chilo?",
         "D": "Quando costano le arance?"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q035",
@@ -631,7 +665,8 @@
         "B": "A che ora arriva Milano?",
         "C": "Da che binario parte il treno per Milano?",
         "D": "Dove compro Milano?"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q036",
@@ -649,7 +684,8 @@
         "B": "买票后90天内有效",
         "C": "只能坐90路公交车",
         "D": "车票价格是90欧"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q037",
@@ -667,7 +703,8 @@
         "B": "Posso avere un posto davanti?",
         "C": "Posso avere un posto vicino all uscita?",
         "D": "Posso avere un posto vicino al finestrino?"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q038",
@@ -685,7 +722,8 @@
         "B": "合租公寓里的单人间，费用已包含",
         "C": "双人间，费用另算",
         "D": "房子出售，不出租"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q039",
@@ -703,7 +741,8 @@
         "B": "Conti correnti",
         "C": "Spedizioni e pacchi",
         "D": "Documenti sanitari"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q040",
@@ -721,7 +760,8 @@
         "B": "Quindi vado dritto e poi giro a destra, giusto?",
         "C": "Quindi prendo il treno e scendo qui, vero?",
         "D": "Quindi entro in farmacia e compro il biglietto?"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q041",
@@ -739,7 +779,8 @@
         "B": "Domani vado al supermercato.",
         "C": "Domani vado in banca.",
         "D": "Domani vado in farmacia."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q042",
@@ -757,7 +798,8 @@
         "B": "lavoro",
         "C": "lavorato",
         "D": "lavori"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q043",
@@ -775,7 +817,8 @@
         "B": "abbiamo mangiare",
         "C": "abbiamo mangiato",
         "D": "mangiamo"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q044",
@@ -793,7 +836,8 @@
         "B": "Gli telefono.",
         "C": "La telefono.",
         "D": "Le telefono."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q045",
@@ -811,7 +855,8 @@
         "B": "Spesso il fine settimana esce.",
         "C": "Io spesso uscire il fine settimana.",
         "D": "Esco spesso il fine settimana."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q046",
@@ -829,7 +874,8 @@
         "B": "luminoso",
         "C": "luminosa",
         "D": "luminosi"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q047",
@@ -847,7 +893,8 @@
         "B": "Noi andiamo al lavoro.",
         "C": "Tu va al lavoro.",
         "D": "Loro andiamo al lavoro."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q048",
@@ -865,7 +912,8 @@
         "B": "动词",
         "C": "副词",
         "D": "代词"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q049",
@@ -883,7 +931,8 @@
         "B": "a Giulia 是直接宾语，un libro 是间接宾语",
         "C": "regala 是名词，Luca 是动词",
         "D": "un libro 是直接宾语，a Giulia 是间接宾语"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q050",
@@ -901,7 +950,8 @@
         "B": "预约是周四9点，不是周五",
         "C": "周五9点药店关门",
         "D": "周四和周五都有预约"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q051",
@@ -919,7 +969,8 @@
         "B": "每天晚上用两次",
         "C": "每天用两次，早晚各一次",
         "D": "两天用一次，早上或晚上都可以"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q052",
@@ -937,7 +988,8 @@
         "B": "Posso avere il conto?",
         "C": "Posso avere una bottiglia d'acqua?",
         "D": "Posso avere il menu?"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q053",
@@ -955,7 +1007,8 @@
         "B": "一包意面",
         "C": "两百克火腿",
         "D": "一公斤奶酪"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q054",
@@ -973,7 +1026,8 @@
         "B": "Questo treno viene da Roma?",
         "C": "Questo treno ferma a Roma?",
         "D": "Da che binario parte il treno per Roma?"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q055",
@@ -991,7 +1045,8 @@
         "B": "在第三站上车，然后买票",
         "C": "在第三站下车，然后过马路",
         "D": "在终点站下车，然后坐火车"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q056",
@@ -1009,7 +1064,8 @@
         "B": "行李超过允许重量",
         "C": "行李已经丢失",
         "D": "行李不需要托运"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q057",
@@ -1027,7 +1083,8 @@
         "B": "你想不想买这套房？",
         "C": "你能今天下午4点签合同吗？",
         "D": "你能周一下午4点来看房吗？"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q058",
@@ -1045,7 +1102,8 @@
         "B": "Vorrei spedire una cartolina.",
         "C": "Vorrei ritirare un pacco.",
         "D": "Vorrei pagare una bolletta."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q059",
@@ -1063,7 +1121,8 @@
         "B": "银行在邮局对面",
         "C": "银行在邮局旁边",
         "D": "银行离邮局很远"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q060",
@@ -1081,7 +1140,8 @@
         "B": "Sono allergico/a a questo farmaco.",
         "C": "Ho preso questo farmaco ieri.",
         "D": "Questo farmaco mi fa venire sonno."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q061",
@@ -1099,7 +1159,8 @@
         "B": "In Cina",
         "C": "A Bologna",
         "D": "A Roma"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q062",
@@ -1117,7 +1178,8 @@
         "B": "Dove lavori?",
         "C": "Quanti anni ha tuo figlio?",
         "D": "Ti va di uscire?"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q063",
@@ -1135,7 +1197,8 @@
         "B": "现在住在北京",
         "C": "已经在佛罗伦萨住了六年",
         "D": "已经在意大利六个月"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q064",
@@ -1153,7 +1216,8 @@
         "B": "Quattro",
         "C": "Cinque",
         "D": "Due"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q065",
@@ -1171,7 +1235,8 @@
         "B": "Ho dieci anni a maggio.",
         "C": "Il mio compleanno è il dieci maggio.",
         "D": "Il compleanno mi piace a maggio."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q066",
@@ -1189,7 +1254,8 @@
         "B": "一只狗",
         "C": "两只猫",
         "D": "一只鸟"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q067",
@@ -1207,7 +1273,8 @@
         "B": "老师",
         "C": "服务员",
         "D": "理发师"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q068",
@@ -1225,7 +1292,8 @@
         "B": "周五和周六晚上",
         "C": "每天上午10点到下午6点",
         "D": "只在周日中午"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q069",
@@ -1243,7 +1311,8 @@
         "B": "Da quanto tempo sei in Italia?",
         "C": "Che lavoro fai?",
         "D": "Quanti anni hai?"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q070",
@@ -1261,7 +1330,8 @@
         "B": "工作时间很短",
         "C": "离家很近",
         "D": "工资很高"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q071",
@@ -1279,7 +1349,8 @@
         "B": "不做作业",
         "C": "只在周末工作",
         "D": "每周学三次意大利语，下班后晚上做作业"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q072",
@@ -1297,7 +1368,8 @@
         "B": "Lavoro da casa.",
         "C": "Lavoro in un salone.",
         "D": "Studio da casa."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q073",
@@ -1315,7 +1387,8 @@
         "B": "去餐厅工作",
         "C": "待在家看电影",
         "D": "去火车站"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q074",
@@ -1333,7 +1406,8 @@
         "B": "Devi prendere un caffè da solo?",
         "C": "Hai preso un caffè ieri?",
         "D": "Prendi sempre il caffè?"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q075",
@@ -1351,7 +1425,8 @@
         "B": "Mi dispiace, sono già impegnata.",
         "C": "Volentieri, a che ora?",
         "D": "Mi dispiace, non posso perché devo studiare."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q076",
@@ -1369,7 +1444,8 @@
         "B": "喜欢阅读，但不喜欢跑步",
         "C": "既喜欢阅读也喜欢跑步",
         "D": "既不喜欢阅读也不喜欢跑步"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q077",
@@ -1387,7 +1463,8 @@
         "B": "从不去健身房",
         "C": "经常去健身房，但周日从不去",
         "D": "只在周日去健身房"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q078",
@@ -1401,11 +1478,12 @@
       "audio_status": null,
       "stem": "阅读：Sono nata a Nanchino, ma vivo a Milano da due anni. 哪项正确？",
       "options": {
-        "A": "我出生在南京，现在住在米兰",
-        "B": "我出生在米兰，现在住在南京",
-        "C": "我在南京住了两年",
-        "D": "我两年前出生在米兰"
-      }
+        "A": "她出生在南京，现在住在米兰",
+        "B": "她出生在米兰，现在住在南京",
+        "C": "她在南京住了两年",
+        "D": "她两年前出生在米兰"
+      },
+      "explanation": ""
     },
     {
       "id": "Q079",
@@ -1423,7 +1501,8 @@
         "B": "Vivo con i miei genitori.",
         "C": "Ho una famiglia molto grande.",
         "D": "Nella mia famiglia siamo in tre."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q080",
@@ -1441,7 +1520,8 @@
         "B": "周一和周三晚上线上课",
         "C": "周二和周四晚上线上课",
         "D": "每天晚上线下课"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q081",
@@ -1459,7 +1539,8 @@
         "B": "vivo",
         "C": "viviamo",
         "D": "vivono"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q082",
@@ -1477,7 +1558,8 @@
         "B": "Sono nato da Roma.",
         "C": "Sono nato in Roma.",
         "D": "Sono nato per Roma."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q083",
@@ -1495,7 +1577,8 @@
         "B": "è guardato",
         "C": "guarda",
         "D": "ha guardato"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q084",
@@ -1513,7 +1596,8 @@
         "B": "Mi piace leggere.",
         "C": "Mi piace guardare film.",
         "D": "Mi piace molto la musica."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q085",
@@ -1531,7 +1615,8 @@
         "B": "Di solito studiare italiano nel fine settimana.",
         "C": "Di solito studio italiano nel fine settimana.",
         "D": "Studio di solito italiano è fine settimana."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q086",
@@ -1549,7 +1634,8 @@
         "B": "simpatica",
         "C": "simpatico",
         "D": "simpatiche"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q087",
@@ -1567,7 +1653,8 @@
         "B": "La mia famiglia vive in Cina.",
         "C": "Abito a Torino da due anni.",
         "D": "Vivo a Torino con la mia famiglia."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q088",
@@ -1585,7 +1672,8 @@
         "B": "Mia sorella",
         "C": "studia",
         "D": "a Padova"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q089",
@@ -1603,7 +1691,8 @@
         "B": "con i miei amici",
         "C": "un film",
         "D": "guardo"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q090",
@@ -1621,7 +1710,8 @@
         "B": "名词",
         "C": "形容词",
         "D": "副词"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q091",
@@ -1639,7 +1729,8 @@
         "B": "只能19点来",
         "C": "预约是2个人",
         "D": "3个人20点的预约已确认"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q092",
@@ -1657,7 +1748,8 @@
         "B": "Sì, certo. Le compro dopo il lavoro.",
         "C": "Sì, ma posso comprarle domani?",
         "D": "Ho già comprato il pane e il latte."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q093",
@@ -1675,7 +1767,8 @@
         "B": "从博洛尼亚到罗马，10:00出发",
         "C": "从博洛尼亚到佛罗伦萨，9:12出发，10:00到达",
         "D": "从佛罗伦萨到博洛尼亚，10:00出发"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q094",
@@ -1693,7 +1786,8 @@
         "B": "市中心两居室，650欧含费用",
         "C": "9月必须搬出，月租不清楚",
         "D": "房子在郊区，费用全包"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q095",
@@ -1711,7 +1805,8 @@
         "B": "你在哪里咳嗽？",
         "C": "你有没有发烧？",
         "D": "你咳嗽几天了？"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q096",
@@ -1729,7 +1824,8 @@
         "B": "Mi fa male la gola.",
         "C": "Ho la febbre alta.",
         "D": "Mi fa male lo stomaco."
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q097",
@@ -1747,7 +1843,8 @@
         "B": "没有学生，也没有餐厅",
         "C": "小但很有活力，有很多学生、酒吧和餐厅",
         "D": "是一个只有火车站的城市"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q098",
@@ -1765,7 +1862,8 @@
         "B": "14:20到达，座位C4",
         "C": "登机口12A，座位C4",
         "D": "这是一张火车票"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q099",
@@ -1783,7 +1881,8 @@
         "B": "每天下午营业",
         "C": "周一到周五8:30-18:30营业",
         "D": "周一到周五上午营业，周六关门"
-      }
+      },
+      "explanation": ""
     },
     {
       "id": "Q100",
@@ -1801,7 +1900,8 @@
         "B": "周六下午和Luca去公园，并邀请你一起去",
         "C": "周日晚上和Luca去电影院",
         "D": "周六下午不能出门，因为要学习"
-      }
+      },
+      "explanation": ""
     }
   ]
 }
