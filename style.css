@@ -330,6 +330,10 @@ button {
   margin-top: 12px;
 }
 
+.result-actions {
+  grid-template-columns: 1fr;
+}
+
 .confirm-card,
 .result-panel {
   padding: 18px;
@@ -345,21 +349,47 @@ button {
 .result-hero {
   display: grid;
   gap: 8px;
-  margin-bottom: 16px;
-  padding-bottom: 16px;
-  border-bottom: 1px solid var(--line);
+  margin-bottom: 0;
 }
 
 .score-number {
+  display: block;
   font-size: 42px;
   font-weight: 950;
   line-height: 1;
 }
 
 .level {
+  display: block;
   color: var(--brand-dark);
   font-size: 20px;
   font-weight: 950;
+}
+
+.result-summary {
+  display: grid;
+  gap: 10px;
+}
+
+.result-summary div {
+  padding: 13px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #fff;
+}
+
+.result-summary span {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.report-section {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
 }
 
 .grid-list {
@@ -390,6 +420,188 @@ button {
   color: var(--muted);
 }
 
+.wrong-list {
+  display: grid;
+  gap: 12px;
+}
+
+.wrong-card,
+.empty-wrong-card {
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #fff;
+}
+
+.wrong-card {
+  border-left: 4px solid var(--accent);
+}
+
+.wrong-card header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  color: var(--ink);
+  line-height: 1.4;
+}
+
+.wrong-card header span {
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: #eef3f6;
+  color: var(--brand-dark);
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.wrong-card p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.wrong-card p span,
+.wrong-stem > span {
+  color: var(--ink);
+  font-weight: 900;
+}
+
+.wrong-stem p {
+  margin: 5px 0 0;
+  color: var(--ink);
+  font-size: 16px;
+  white-space: pre-wrap;
+}
+
+.wrong-options {
+  display: grid;
+  gap: 8px;
+  margin: 12px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.wrong-option {
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr);
+  gap: 7px;
+  align-items: start;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #fbfcfd;
+  color: var(--ink);
+}
+
+.wrong-option-letter {
+  font-weight: 950;
+}
+
+.wrong-option-text {
+  min-width: 0;
+}
+
+.wrong-option.correct {
+  border-color: #91d1b7;
+  background: #edf8f2;
+  color: var(--success);
+  font-weight: 900;
+}
+
+.wrong-option.wrong {
+  border-color: #e6aaa6;
+  background: #fff1f0;
+  color: var(--danger);
+  font-weight: 900;
+}
+
+.answer-note {
+  grid-column: 2;
+  width: fit-content;
+  margin-top: 2px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  font-size: 12px;
+  font-weight: 950;
+}
+
+.wrong-meta {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+}
+
+.wrong-meta div {
+  display: grid;
+  gap: 2px;
+}
+
+.wrong-meta dt,
+.wrong-meta dd {
+  margin: 0;
+}
+
+.wrong-meta dt {
+  color: var(--ink);
+  font-weight: 900;
+}
+
+.wrong-meta dd {
+  color: var(--muted);
+  white-space: pre-wrap;
+}
+
+.wrong-meta .wrong-answer {
+  color: var(--danger) !important;
+  font-weight: 800;
+}
+
+.wrong-meta .correct-answer {
+  color: var(--success) !important;
+  font-weight: 900;
+}
+
+.empty-wrong-card {
+  color: var(--success);
+  font-weight: 900;
+}
+
+.module-details {
+  margin-top: 18px;
+  padding: 0;
+}
+
+.module-details summary {
+  min-height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: #fff;
+  color: var(--brand-dark);
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.module-details summary::after {
+  content: "+";
+  font-size: 22px;
+  line-height: 1;
+}
+
+.module-details[open] summary {
+  margin-bottom: 12px;
+}
+
+.module-details[open] summary::after {
+  content: "-";
+}
+
 .ok {
   color: var(--success);
 }
@@ -405,5 +617,13 @@ button {
 @media (min-width: 720px) {
   .info-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .result-summary {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .result-actions {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
