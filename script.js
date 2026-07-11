@@ -274,29 +274,10 @@ function combinedScore(stats, keys) {
 }
 
 function determineLevel(result) {
-  const lifeScore = statScore(result.byType, "真实生活场景");
-  const grammarScore = statScore(result.byType, "语法运用");
-  const logicScore = statScore(result.byType, "语言逻辑");
-  const difficult = combinedScore(result.byDifficulty, ["4", "5"]);
-  const personal = combinedScore(result.byModule, personalModules);
-  const difficultOk = difficult.possible ? difficult.total / difficult.possible >= 0.7 : false;
-  const personalOk = personal.possible ? personal.total / personal.possible >= 0.7 : false;
-
-  const b1 =
-    result.total >= 85 &&
-    difficultOk &&
-    lifeScore >= 55 &&
-    logicScore >= 7 &&
-    personalOk;
-
-  if (b1) return { label: "B1预备水平", b1Ready: true };
-  if (result.total >= 80 && lifeScore >= 52 && grammarScore >= 15 && logicScore >= 6) {
-    return { label: "A2稳定达标", b1Ready: false };
-  }
-  if (result.total >= 70 && lifeScore >= 45 && grammarScore >= 12) {
-    return { label: "A2基础达标", b1Ready: false };
-  }
-  return { label: "未达到A2", b1Ready: false };
+  if (result.total >= 85) return { label: "A2稳定达标", advice: "A2 核心能力比较稳定，可以开始更系统地进入下一阶段学习。" };
+  if (result.total >= 70) return { label: "A2基础达标", advice: "A2 基础已经建立，建议根据错题集中补强薄弱模块。" };
+  if (result.total >= 60) return { label: "A2起步", advice: "已经接近 A2 要求，建议先复习高频生活场景和基础语法。" };
+  return { label: "A1阶段", advice: "建议先回到 A1 核心表达，把自我介绍、日常场景和基础句型做稳。" };
 }
 
 function scoreCards(title, stats) {
@@ -313,61 +294,217 @@ function scoreCards(title, stats) {
       `;
     })
     .join("");
-  return `<h3>${escapeHtml(title)}</h3><div class="grid-list">${cards}</div>`;
+  const heading = title ? `<h3>${escapeHtml(title)}</h3>` : "";
+  return `${heading}<div class="grid-list">${cards}</div>`;
 }
 
-function buildDiagnosis(result) {
+function summaryGroupForQuestion(q) {
+  if (q.type === "语法运用") return "语法运用";
+  if (q.type === "语言逻辑") return "语言逻辑";
+  if (personalModules.includes(q.module)) return "个人介绍 / 工作 / 兴趣";
+  if (["公交车", "飞机", "火车站"].includes(q.module)) return "交通出行";
+  if (["医疗", "药店"].includes(q.module)) return "医疗药店";
+  return "生活场景";
+}
+
+function calculateSummaryGroups() {
+  const groups = {
+    "个人介绍 / 工作 / 兴趣": emptyStat(),
+    生活场景: emptyStat(),
+    交通出行: emptyStat(),
+    医疗药店: emptyStat(),
+    语法运用: emptyStat(),
+    语言逻辑: emptyStat(),
+  };
+
+  exam.forEach((q) => {
+    const isCorrect = answers[q.id] === q.answer;
+    const points = scoringRules.question_score || 2;
+    addStat(groups, summaryGroupForQuestion(q), isCorrect, points, q);
+  });
+
+  return groups;
+}
+
+function diagnosisSummary(result) {
   const entries = Object.entries(result.wrongTags).sort((a, b) => b[1] - a[1]);
-  const weak = entries.filter(([, count]) => count >= 2).slice(0, 6);
+  const weak = entries.slice(0, 4);
   const strengths = Object.entries(result.byModule)
     .filter(([, stat]) => stat.possible && stat.total / stat.possible >= 0.8)
     .map(([name]) => name)
-    .slice(0, 5);
+    .slice(0, 3);
+
+  return { weak, strengths };
+}
+
+function buildStudyAdvice(result) {
+  const { weak } = diagnosisSummary(result);
+  const nextStep = weak.length
+    ? `优先复习：${weak.map(([tag]) => tag).slice(0, 3).join("、")}。`
+    : "继续保持，并尝试做更多综合表达练习。";
+
+  return `
+    <section class="report-section">
+      <div class="diagnosis-card">
+        <h3>📈 学习建议</h3>
+        <p>${escapeHtml(nextStep)}</p>
+      </div>
+    </section>
+  `;
+}
+
+function buildAutoDiagnosis(result, level) {
+  const { weak, strengths } = diagnosisSummary(result);
 
   const weakHtml = weak.length
     ? `<ul>${weak.map(([tag]) => `<li>${escapeHtml(tag)}</li>`).join("")}</ul>`
     : "<p>没有明显集中薄弱点，建议继续保持。</p>";
   const strongHtml = strengths.length
     ? `<ul>${strengths.map((name) => `<li>${escapeHtml(name)} 掌握良好</li>`).join("")}</ul>`
-    : "<p>优势模块还不够集中，建议先把高频个人交流和生活场景做稳。</p>";
+    : "<p>本次优势还不够集中，可以先看错题回顾。</p>";
 
   return `
-    <div class="diagnosis-card">
-      <h3>自动诊断</h3>
-      <p class="score-pill">诊断模板已读取 · ${diagnosisTemplate ? "已启用" : "未读取"}</p>
-      <h4>你的优势</h4>
-      ${strongHtml}
-      <h4>建议加强</h4>
-      ${weakHtml}
-    </div>
+    <section class="report-section">
+      <div class="diagnosis-card">
+        <h3>自动诊断</h3>
+        <p>${escapeHtml(level.advice)}</p>
+        <h4>你的优势</h4>
+        ${strongHtml}
+        <h4>建议加强</h4>
+        ${weakHtml}
+        ${scoreCards("能力维度分析", result.byDimension)}
+      </div>
+    </section>
+  `;
+}
+
+function formatAnswer(q, letter) {
+  if (!letter || !q.options[letter]) return "未作答";
+  return `${letter}. ${q.options[letter]}`;
+}
+
+function wrongOptionClass(q, letter, selectedLetter) {
+  if (letter === q.answer) return " correct";
+  if (letter === selectedLetter && selectedLetter !== q.answer) return " wrong";
+  return "";
+}
+
+function wrongOptionNote(q, letter, selectedLetter) {
+  const notes = [];
+  if (letter === selectedLetter) notes.push("你的答案");
+  if (letter === q.answer) notes.push("正确答案");
+  return notes.length ? `<span class="answer-note">${notes.join(" / ")}</span>` : "";
+}
+
+function buildWrongReview() {
+  const wrongQuestions = exam.filter((q) => answers[q.id] !== q.answer);
+
+  if (!wrongQuestions.length) {
+    return `
+      <section class="wrong-review report-section">
+        <h3>📌 错题回顾（最重要）</h3>
+        <div class="empty-wrong-card">太棒了！本次测试没有错题。</div>
+      </section>
+    `;
+  }
+
+  const cards = wrongQuestions
+    .map((q) => {
+      const selectedLetter = answers[q.id];
+      const explanation = q.explanation || "";
+      const options = ["A", "B", "C", "D"]
+        .map((letter) => {
+          const optionClass = wrongOptionClass(q, letter, selectedLetter);
+          return `
+            <li class="wrong-option${optionClass}">
+              <span class="wrong-option-letter">${letter}.</span>
+              <span class="wrong-option-text">${escapeHtml(q.options[letter] || "")}</span>
+              ${wrongOptionNote(q, letter, selectedLetter)}
+            </li>
+          `;
+        })
+        .join("");
+
+      return `
+        <article class="wrong-card">
+          <header>
+            <strong>${escapeHtml(q.id)}</strong>
+            <span>${escapeHtml(q.module)}</span>
+          </header>
+          <div class="wrong-stem">
+            <span>题目：</span>
+            <p>${escapeHtml(q.stem)}</p>
+          </div>
+          <ol class="wrong-options" aria-label="${escapeHtml(q.id)} 选项">
+            ${options}
+          </ol>
+          <dl class="wrong-meta">
+            <div>
+              <dt>你的答案：</dt>
+              <dd class="wrong-answer">${escapeHtml(formatAnswer(q, selectedLetter))}</dd>
+            </div>
+            <div>
+              <dt>正确答案：</dt>
+              <dd class="correct-answer">${escapeHtml(formatAnswer(q, q.answer))}</dd>
+            </div>
+            <div>
+              <dt>诊断标签：</dt>
+              <dd>${escapeHtml(q.diagnostic_tag || "暂无")}</dd>
+            </div>
+            <div>
+              <dt>解析：</dt>
+              <dd>${escapeHtml(explanation)}</dd>
+            </div>
+          </dl>
+        </article>
+      `;
+    })
+    .join("");
+
+  return `
+    <section class="wrong-review report-section">
+      <h3>📌 错题回顾（最重要）</h3>
+      <div class="wrong-list">${cards}</div>
+    </section>
   `;
 }
 
 function renderResults() {
   const result = calculateResults();
   const level = determineLevel(result);
-  const b1Text = level.b1Ready
-    ? "已达到 B1 预备水平"
-    : "建议继续巩固 A2 核心能力";
 
   resultPanel.innerHTML = `
     <section class="result-hero">
       <p class="kicker">测试报告</p>
-      <div class="score-number">${result.total} / 100</div>
-      <div class="level">${level.label}</div>
-      <p class="${level.b1Ready ? "ok" : "warn"}">${b1Text}</p>
+      <div class="result-summary">
+        <div>
+          <span>① 分数</span>
+          <strong class="score-number">${result.total} / 100</strong>
+        </div>
+        <div>
+          <span>② 当前等级</span>
+          <strong class="level">${escapeHtml(level.label)}</strong>
+        </div>
+      </div>
     </section>
 
-    ${scoreCards("各模块表现", result.byModule)}
-    ${scoreCards("能力维度", result.byDimension)}
-    ${buildDiagnosis(result)}
+    ${buildWrongReview()}
+    <section class="report-section">
+      ${scoreCards("📊 模块表现", calculateSummaryGroups())}
+    </section>
+    ${buildStudyAdvice(result)}
+    ${buildAutoDiagnosis(result, level)}
 
-    <div class="stack-actions">
+    <div class="stack-actions result-actions">
+      <button class="ghost-btn" type="button" id="backTopBtn">返回顶部</button>
       <button class="ghost-btn" type="button" id="reviewBtn">返回查看题目</button>
       <button class="primary-btn" type="button" id="restartBtn">重新抽题</button>
     </div>
   `;
 
+  document.getElementById("backTopBtn").addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
   document.getElementById("reviewBtn").addEventListener("click", () => showScreen("quiz"));
   document.getElementById("restartBtn").addEventListener("click", () => {
     localStorage.removeItem(STORAGE_KEY);
